@@ -1,0 +1,72 @@
+[
+  {
+    "metierLibelle": "ASSAINISSEMENT COLLECTIF",
+    "tableMetier": "C-ASS",
+    "dfDsp": "W1192000",
+    "dfHdsp": "W1192050",
+    "metier": ""
+  },
+  {
+    "metierLibelle": "ASSAINISSEMENT NON COLLECTIF",
+    "tableMetier": "C-ANC",
+    "dfDsp": "W1192000",
+    "dfHdsp": "W1192050",
+    "metier": ""
+  },
+  {
+    "metierLibelle": "AUTRE ACTIVITÉ",
+    "tableMetier": "C-AUT",
+    "dfDsp": "W1193000",
+    "dfHdsp": "W1193050",
+    "metier": ""
+  },
+  {
+    "metierLibelle": "CHAUFFAGE",
+    "tableMetier": "C-CHA",
+    "dfDsp": "W1193000",
+    "dfHdsp": "W1193050",
+    "metier": "Metier NRJ"
+  },
+  {
+    "metierLibelle": "EAU",
+    "tableMetier": "C-EAU",
+    "dfDsp": "W1191000",
+    "dfHdsp": "W1191050",
+    "metier": ""
+  },
+  {
+    "metierLibelle": "EAU PLUVIALE",
+    "tableMetier": "C-PLU",
+    "dfDsp": "W1192000",
+    "dfHdsp": "W1192050",
+    "metier": ""
+  },
+  {
+    "metierLibelle": "ELECTRICITÉ",
+    "tableMetier": "C-ELE",
+    "dfDsp": "W1193000",
+    "dfHdsp": "W1193050",
+    "metier": "Metier NRJ"
+  },
+  {
+    "metierLibelle": "GAZ",
+    "tableMetier": "C-GAZ",
+    "dfDsp": "W1193000",
+    "dfHdsp": "W1193050",
+    "metier": "Metier NRJ"
+  },
+  {
+    "metierLibelle": "ORDURES / DÉCHETS",
+    "tableMetier": "C-ORM",
+    "dfDsp": "W1193000",
+    "dfHdsp": "W1193050",
+    "metier": ""
+  },
+  {
+    "metierLibelle": "MULTI ACTIVITES",
+    "tableMetier": "C-MUL",
+    "dfDsp": "W1193000",
+    "dfHdsp": "W1193050",
+    "metier": ""
+  }
+]

@@ -1,0 +1,275 @@
+[
+  {
+    "libelleSousMetier": "ANC",
+    "SSMetier": "6N0-ASST-R",
+    "metier": "C-ANC",
+    "M1": "ASS",
+    "SSMetier__1": "SSMetierANC"
+  },
+  {
+    "libelleSousMetier": "ASST COLLECTIF COMPLET",
+    "SSMetier": "6A2-ASST-L-D-E",
+    "metier": "C-ASS",
+    "M1": "ASS",
+    "SSMetier__1": "SSMetierAss"
+  },
+  {
+    "libelleSousMetier": "ASST COLLECTIF SANS USINE",
+    "SSMetier": "6A5-ASST-D-E",
+    "metier": "C-ASS",
+    "M1": "ASS",
+    "SSMetier__1": "SSMetierAss"
+  },
+  {
+    "libelleSousMetier": "ASST POSTES",
+    "SSMetier": "6A3-ASST-E",
+    "metier": "C-ASS",
+    "M1": "ASS",
+    "SSMetier__1": "SSMetierAss"
+  },
+  {
+    "libelleSousMetier": "ASST RESEAU",
+    "SSMetier": "6A4-ASST-D",
+    "metier": "C-ASS",
+    "M1": "ASS",
+    "SSMetier__1": "SSMetierAss"
+  },
+  {
+    "libelleSousMetier": "ASST USINE",
+    "SSMetier": "6A6-ASST-L",
+    "metier": "C-ASS",
+    "M1": "ASS",
+    "SSMetier__1": "SSMetierAss"
+  },
+  {
+    "libelleSousMetier": "ASST USINE, POSTES",
+    "SSMetier": "6A0-ASST-L-E",
+    "metier": "C-ASS",
+    "M1": "ASS",
+    "SSMetier__1": "SSMetierAss"
+  },
+  {
+    "libelleSousMetier": "ASST USINE, RESEAU",
+    "SSMetier": "6A1-ASST-L-D",
+    "metier": "C-ASS",
+    "M1": "ASS",
+    "SSMetier__1": "SSMetierAss"
+  },
+  {
+    "libelleSousMetier": "AUTRE ACTIVITE",
+    "SSMetier": "6X0-AUT",
+    "metier": "C-AUT",
+    "M1": "AUT",
+    "SSMetier__1": "SSMetierAut"
+  },
+  {
+    "libelleSousMetier": "CHAUFFAGE COMPLET",
+    "SSMetier": "6C0-CHAUF-F-G-H-P",
+    "metier": "C-CHA",
+    "M1": "AUT",
+    "SSMetier__1": "SSMetierCHA"
+  },
+  {
+    "libelleSousMetier": "CHAUFFAGE PRODUCTION, DISTRIBUTION",
+    "SSMetier": "6C1-CHAUF-F-G",
+    "metier": "C-CHA",
+    "M1": "AUT",
+    "SSMetier__1": "SSMetierCHA"
+  },
+  {
+    "libelleSousMetier": "EAU COMPLET",
+    "SSMetier": "6E0-EAU-A-B-I-J",
+    "metier": "C-EAU",
+    "M1": "EAU",
+    "SSMetier__1": "SSMetierEau"
+  },
+  {
+    "libelleSousMetier": "EAU COMPLET SANS COMPTEURS",
+    "SSMetier": "6E1-EAU-A-B-I",
+    "metier": "C-EAU",
+    "M1": "EAU",
+    "SSMetier__1": "SSMetierEau"
+  },
+  {
+    "libelleSousMetier": "EAU COMPLET SANS USINE",
+    "SSMetier": "6E4-EAU-B-I-J",
+    "metier": "C-EAU",
+    "M1": "EAU",
+    "SSMetier__1": "SSMetierEau"
+  },
+  {
+    "libelleSousMetier": "EAU PLUVIALE",
+    "SSMetier": "6P0-PLU",
+    "metier": "C-PLU",
+    "M1": "EAU",
+    "SSMetier__1": "SSMetierPLU"
+  },
+  {
+    "libelleSousMetier": "EAU RESEAU, BRANCHEMENT",
+    "SSMetier": "6E2-EAU-B-I",
+    "metier": "C-EAU",
+    "M1": "EAU",
+    "SSMetier__1": "SSMetierEau"
+  },
+  {
+    "libelleSousMetier": "EAU RESEAU, BRANCHEMENT, COMPTEURS",
+    "SSMetier": "6E7-EAU-A-B-J",
+    "metier": "C-EAU",
+    "M1": "EAU",
+    "SSMetier__1": "SSMetierEau"
+  },
+  {
+    "libelleSousMetier": "EAU RESEAU, COMPTEURS",
+    "SSMetier": "6E3-EAU-B-J",
+    "metier": "C-EAU",
+    "M1": "EAU",
+    "SSMetier__1": "SSMetierEau"
+  },
+  {
+    "libelleSousMetier": "EAU USINE",
+    "SSMetier": "6E5-EAU-A",
+    "metier": "C-EAU",
+    "M1": "EAU",
+    "SSMetier__1": "SSMetierEau"
+  },
+  {
+    "libelleSousMetier": "EAU USINE, RESEAU ET REVERSOIRS",
+    "SSMetier": "6E6-EAU-A-B",
+    "metier": "C-EAU",
+    "M1": "EAU",
+    "SSMetier__1": "SSMetierEau"
+  },
+  {
+    "libelleSousMetier": "ELECTRICITE",
+    "SSMetier": "6L0-ELE",
+    "metier": "C-ELE",
+    "M1": "AUT",
+    "SSMetier__1": "SSMetierELE"
+  },
+  {
+    "libelleSousMetier": "GAZ COMPLET",
+    "SSMetier": "6G0-GAZ-F-G-H-P",
+    "metier": "C-GAZ",
+    "M1": "AUT",
+    "SSMetier__1": "SSMetierGAZ"
+  },
+  {
+    "libelleSousMetier": "GAZ PRODUCTION",
+    "SSMetier": "6G1-GAZ-F",
+    "metier": "C-GAZ",
+    "M1": "AUT",
+    "SSMetier__1": "SSMetierGAZ"
+  },
+  {
+    "libelleSousMetier": "GAZ PRODUCTION, DISTRIBUTION",
+    "SSMetier": "6G2-GAZ-F-G",
+    "metier": "C-GAZ",
+    "M1": "AUT",
+    "SSMetier__1": "SSMetierGAZ"
+  },
+  {
+    "libelleSousMetier": "MULTI ASST + ANC",
+    "SSMetier": "6M2-MUL-LDE-R",
+    "metier": "C-MUL",
+    "M1": "AUT",
+    "SSMetier__1": "SSMetierMUL"
+  },
+  {
+    "libelleSousMetier": "MULTI ASST RESEAU + ANC",
+    "SSMetier": "6M5-MUL-D-R",
+    "metier": "C-MUL",
+    "M1": "AUT",
+    "SSMetier__1": "SSMetierMUL"
+  },
+  {
+    "libelleSousMetier": "MULTI ASST, RESEAU, POSTES + ANC",
+    "SSMetier": "6M7-MUL-DE-R",
+    "metier": "C-MUL",
+    "M1": "AUT",
+    "SSMetier__1": "SSMetierMUL"
+  },
+  {
+    "libelleSousMetier": "MULTI ASST, USINE, POSTES + ANC",
+    "SSMetier": "6M3-MUL-LE-R",
+    "metier": "C-MUL",
+    "M1": "AUT",
+    "SSMetier__1": "SSMetierMUL"
+  },
+  {
+    "libelleSousMetier": "MULTI ASST, USINE, RESEAU + ANC",
+    "SSMetier": "6M4-MUL-LD-R",
+    "metier": "C-MUL",
+    "M1": "AUT",
+    "SSMetier__1": "SSMetierMUL"
+  },
+  {
+    "libelleSousMetier": "MULTI EAU + ASST",
+    "SSMetier": "6M0-MUL-ABIJ-LDE",
+    "metier": "C-MUL",
+    "M1": "AUT",
+    "SSMetier__1": "SSMetierMUL"
+  },
+  {
+    "libelleSousMetier": "MULTI EAU + ASST + ANC",
+    "SSMetier": "6M1-MUL-ABIJ-LDE-R",
+    "metier": "C-MUL",
+    "M1": "AUT",
+    "SSMetier__1": "SSMetierMUL"
+  },
+  {
+    "libelleSousMetier": "MULTI EAU COMPLET + ANC",
+    "SSMetier": "6M6-MUL-ABIJ-R",
+    "metier": "C-MUL",
+    "M1": "AUT",
+    "SSMetier__1": "SSMetierMUL"
+  },
+  {
+    "libelleSousMetier": "MULTI TOUTES ACTIVITES",
+    "SSMetier": "6M9-MUL-TOUT",
+    "metier": "C-MUL",
+    "M1": "AUT",
+    "SSMetier__1": "SSMetierMUL"
+  },
+  {
+    "libelleSousMetier": "ORDURES / DECHETS",
+    "SSMetier": "6O0-ORM",
+    "metier": "C-ORM",
+    "M1": "AUT",
+    "SSMetier__1": "SSMetierORM"
+  },
+  {
+    "libelleSousMetier": "PERCEPTEUR",
+    "SSMetier": "6Z3-AUT",
+    "metier": "C-AUT",
+    "M1": "AUT",
+    "SSMetier__1": "SSMetierAut"
+  },
+  {
+    "libelleSousMetier": "PRODUITS",
+    "SSMetier": "6Z2-AUT",
+    "metier": "C-AUT",
+    "M1": "AUT",
+    "SSMetier__1": "SSMetierAut"
+  },
+  {
+    "libelleSousMetier": "REVERSEMENT",
+    "SSMetier": "6Z4-AUT",
+    "metier": "C-AUT",
+    "M1": "AUT",
+    "SSMetier__1": "SSMetierAut"
+  },
+  {
+    "libelleSousMetier": "SANS-PRESTATION",
+    "SSMetier": "6Z1-AUT",
+    "metier": "C-AUT",
+    "M1": "AUT",
+    "SSMetier__1": "SSMetierAut"
+  },
+  {
+    "libelleSousMetier": "TOUTES ACTIVITES",
+    "SSMetier": "6Z9-AUT",
+    "metier": "C-AUT",
+    "M1": "AUT",
+    "SSMetier__1": "SSMetierAut"
+  }
+]

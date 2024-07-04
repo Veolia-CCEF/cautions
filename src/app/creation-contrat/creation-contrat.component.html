@@ -1,0 +1,418 @@
+<igx-stepper #stepper [linear]="false">
+    <!-- <igx-stepper #stepper [linear]="true" [orientation]="'vertical'"></igx-stepper> -->
+    <igx-step #step1 [isValid]="!!selectedCard" [completed]="!!selectedCard">
+    <span igxStepTitle>Type</span>
+    <div igxStepContent [tabIndex]="-1">
+        <h2 class="sample-step-title">Choisis ton type de caution</h2>
+        <div class="card-wrapper">
+            <igx-card *ngFor="let card of cards" (click)="selectCard(card)"
+            class="card" [ngClass]="{'selected-card': selectedCard === card}" [tabIndex]="0"
+            (keydown)="handleKeyDown($event, card)" elevated>
+            <igx-badge *ngIf="selectedCard === card" value="Votre choix actuel"></igx-badge>
+            <igx-card-media>
+                <img src="{{card.img}}" alt="">
+            </igx-card-media>
+            <igx-card-content>
+                <span class="card-currency">{{card.price}}</span>
+                <span class="card-title">{{card.offer}}</span>
+                <p>{{card.description}}</p>
+            </igx-card-content>
+            </igx-card>
+        </div>
+    </div>
+    </igx-step>
+    <igx-step #step2 [isValid]="garantieInfosForm.form.valid" [completed]="garantieInfosForm.form.valid">
+    <span igxStepTitle>Nature de garantie</span>
+    <div igxStepContent [tabIndex]="-1">
+        <div class="sample-row">
+            <form class="flex-form" #garantieInfosForm="ngForm">
+                <igx-select type="box" name="garantie" [(ngModel)]="garantieInfos.garantie" required>
+                <igx-select-item *ngFor="let nature of getFilteredNatures()" [value]="nature.nom">
+                {{nature.nom}}
+                </igx-select-item>
+                <label igxLabel>Nature de garantie</label>
+                </igx-select>
+                <igx-radio-group type="box" *ngIf="garantieInfos.garantie !== '' && garantieInfos.type == 'Affermage'" name="relatif"  alignment="vertical"
+                [(ngModel)]="garantieInfos.relatif" required>
+                <igx-radio class="radio-sample" value="start">
+                    Relative à l'execution du contrat ?
+                </igx-radio>
+                <igx-radio class="radio-sample" value="end">
+                    Relative à la fin du contrat ?
+                </igx-radio>
+            </igx-radio-group>
+            <p *ngIf="garantieInfos.garantie !== ''"> Quel est le cadre pour la caution ?</p>
+            <igx-radio-group type="box" *ngIf="garantieInfos.garantie !== ''" name="isAvenant"  alignment="vertical"
+            [(ngModel)]="garantieInfos.isAvenant" required>
+            <igx-radio class="radio-sample" value="initiale">
+                Caution Initiale
+            </igx-radio>
+            <igx-radio class="radio-sample" value="existante">
+                Avenant sur caution existante
+            </igx-radio>
+        </igx-radio-group>
+        <igx-input-group type="box" *ngIf="garantieInfos.isAvenant == 'existante'">
+            <input igxInput name="numeroCaution" id="numeroCaution" type="text" [(ngModel)]="garantieInfos.numeroCaution" required/>
+            <label igxLabel for="numeroCaution">Numéro caution d'origine</label>
+        </igx-input-group>
+            </form>
+            <igx-card  *ngIf="selectedCard">
+                <igx-card-content>
+                    <img src="{{selectedCard.img}}" alt="">
+                    <div>
+                        <span class="card-title">Formulaire {{selectedCard.description}}</span>
+                        <button igxButton="contained" (click)="stepper.prev()">Retour</button>
+                        <button igxButton="flat" (click)="stepper.next()"
+                        [disabled]="!garantieInfosForm.form.valid">Continuer</button>
+                    </div>
+                </igx-card-content>
+            </igx-card>
+        </div>
+    </div>
+    </igx-step>
+    <igx-step #step3 [isValid]="generalInfosForm.form.valid" [completed]="generalInfosForm.form.valid">
+    <span igxStepTitle>Général</span>
+    <div igxStepContent [tabIndex]="-1">
+        <div class="sample-row">
+            <form class="flex-form" #generalInfosForm="ngForm">
+                <igx-select type="box" name="region" [(ngModel)]="generalInfos.region" [value]="generalInfos.region" required>
+                <igx-select-item *ngFor="let region of regions" [value]="region">
+                    {{region}}
+                </igx-select-item>
+                <label igxLabel>Region</label>
+                </igx-select>
+                <igx-select *ngIf="generalInfos.region !== ''" type="box" name="garantie" [(ngModel)]="generalInfos.donneurOrdre" required>
+                <igx-select-item *ngFor="let donneurOrdre of getFilteredSte()" [value]="donneurOrdre.description">
+                {{donneurOrdre.description}}
+                </igx-select-item>
+                <label igxLabel>Société donneuse d'ordre</label>
+                </igx-select>
+                <igx-input-group type="box" *ngIf="garantieInfos.type == 'Affermage'">
+                    <input igxInput maxlength="5" minlength="5" name="codeContrat" id="codeContrat" type="text" [(ngModel)]="generalInfos.codeContrat" required/>
+                    <label igxLabel for="codeContrat">Code Contrat</label>
+                    <igx-hint *ngIf="!generalInfosForm.controls['codeContrat']?.pristine
+                        && !generalInfosForm.controls['codeContrat']?.valid">
+                        Le code contrat doit faire 0 ou 5 caractères.
+                    </igx-hint>
+                </igx-input-group>
+                <igx-input-group type="box" *ngIf="garantieInfos.type == 'Travaux'">
+                    <input igxInput maxlength="5" minlength="5" name="codeChantier" id="codeChantier" type="text" [(ngModel)]="generalInfos.codeChantier"/>
+                    <label igxLabel for="codeChantier">Code Chantier</label>
+                    <igx-hint *ngIf="!generalInfosForm.controls['codeChantier']?.pristine
+                        && !generalInfosForm.controls['codeChantier']?.valid">
+                        Le code chantier doit faire 0 ou 5 caractères.
+                    </igx-hint>
+                </igx-input-group>
+                <igx-input-group type="box" *ngIf="garantieInfos.type == 'Affermage'">
+                    <input igxInput maxlength="280" name="objetContrat" id="objetContrat" type="text" [(ngModel)]="generalInfos.objetContrat" required/>
+                    <label igxLabel for="objetContrat">Objet du contrat</label>
+                </igx-input-group>
+                <igx-input-group type="box" *ngIf="garantieInfos.type == 'Travaux'">
+                    <input igxInput maxlength="80" name="objetTravaux" id="objetTravaux" type="text" [(ngModel)]="generalInfos.objetTravaux" required/>
+                    <label igxLabel for="objetTravaux">Objet des travaux</label>
+                </igx-input-group>
+                <div class="form-row">
+                    <igx-date-picker name="dateSaisie" id="dateSaisie" [inputFormat]="'dd/MM/yy'" placeholder="jj/mm/aa" [(ngModel)]="generalInfos.dateSaisie" required>
+                    <label igxLabel>Date de saisie</label>
+                    </igx-date-picker>
+                    <igx-date-picker name="dateLimite" [disabled]="generalInfos.dateSaisie == ''" placeholder="jj/mm/aa" [minValue]="generalInfos.dateSaisie" id="dateLimite" [inputFormat]="'dd/MM/yy'" [(ngModel)]="generalInfos.dateLimite" required>
+                    <label igxLabel>Date limite de réponse</label>
+                    </igx-date-picker>
+                </div>
+                <igx-input-group type="box" *ngIf="garantieInfos.type == 'Travaux'">
+                    <input igxInput min="1" name="montantTTC" id="montantTTC" type="number"
+                    [(ngModel)]="generalInfos.montantTTC" (ngModelChange)="changeMontantGarantieFixe($event)" required />
+                    <label igxLabel for="montantTTC">Montant TTC du contrat</label>
+                    <igx-hint *ngIf="!generalInfosForm.controls['montantTTC']?.pristine
+                        && !generalInfosForm.controls['montantTTC']?.valid">
+                        Le montant doit être supérieur à 0.
+                    </igx-hint>
+                </igx-input-group>
+                <igx-radio-group type="box" name="relatif"  alignment="vertical"
+                [(ngModel)]="generalInfos.typeMontantGarantie" (ngModelChange)="changeMontantGarantie()" *ngIf="garantieInfos.type == 'Affermage'" required>
+                <igx-radio class="radio-sample" value="forfaitaire">
+                    Garantie forfaitaire
+                </igx-radio>
+                <igx-radio class="radio-sample" value="calculée">
+                    Garantie calculée
+                </igx-radio>
+            </igx-radio-group>
+                <div class="form-row" *ngIf="garantieInfos.type == 'Affermage' && generalInfos.typeMontantGarantie == 'calculée'">
+                    <igx-input-group type="box" required>
+                        <input igxInput name="base" id="base" type="text"
+                        [(ngModel)]="generalInfos.base" (ngModelChange)="changeMontantGarantie()" required />
+                        <label igxLabel for="base">Base</label>
+                    </igx-input-group>
+                    <igx-input-group type="box" required>
+                        <input igxInput name="taux" id="taux" type="text"
+                        [(ngModel)]="generalInfos.taux" (ngModelChange)="changeMontantGarantie()" required />
+                        <label igxLabel for="taux">Taux</label>
+                    </igx-input-group>
+                </div>
+                <igx-input-group type="box" required>
+                    <input min="1" igxInput name="montantGarantie" id="montantGarantie" type="number"
+                    [(ngModel)]="generalInfos.montantGarantie" [disabled]="generalInfos.typeMontantGarantie !== 'forfaitaire'" required />
+                    <label igxLabel for="montantGarantie">Montant garantie</label>
+                </igx-input-group>
+            </form>
+            <igx-card  *ngIf="selectedCard">
+                <igx-card-content>
+                    <img src="{{selectedCard.img}}" alt="">
+                    <div>
+                        <span class="card-title">Formulaire {{selectedCard.description}}</span>
+                        <button igxButton="contained" (click)="stepper.prev()">Retour</button>
+                        <button igxButton="flat" (click)="stepper.next()"
+                        [disabled]="!generalInfosForm.form.valid">Continuer</button>
+                    </div>
+                </igx-card-content>
+            </igx-card>
+        </div>
+    </div>
+    </igx-step>
+    <igx-step #step4 [isValid]="beneficiaireInfosForm.form.valid" [completed]="beneficiaireInfosForm.form.valid">
+    <span igxStepTitle>Bénéficiaire</span>
+    <div igxStepContent [tabIndex]="-1">
+        <div class="sample-row">
+            <form class="flex-form" #beneficiaireInfosForm="ngForm">
+                <igx-input-group type="box">
+                    <input igxInput name="nom" id="nom" type="text" [(ngModel)]="beneficiaireInfos.nom" required/>
+                    <label igxLabel for="nom">Nom</label>
+                </igx-input-group>
+                <igx-input-group type="box">
+                    <input igxInput name="adresse" id="adresse" type="text" [(ngModel)]="beneficiaireInfos.adresse" required/>
+                    <label igxLabel for="adresse">Adresse</label>
+                </igx-input-group>
+                <div class="form-row">
+                    <igx-input-group type="box">
+                        <input igxInput name="ville" id="ville" type="text" [(ngModel)]="beneficiaireInfos.ville" required/>
+                        <label igxLabel for="ville">Ville</label>
+                        <igx-hint>Mettre CEDEX au besoin</igx-hint>
+                    </igx-input-group>
+                    <igx-input-group type="box">
+                        <input igxInput pattern="(\d{5})" maxlength="5" minlength="5" name="cp" id="cp" type="text" [(ngModel)]="beneficiaireInfos.cp" required/>
+                        <label igxLabel for="cp">Code Postal</label>
+                        <igx-prefix>
+                            <igx-icon>lock</igx-icon>
+                        </igx-prefix>
+                        <igx-hint *ngIf="!beneficiaireInfosForm.controls['cp']?.pristine
+                            && !beneficiaireInfosForm.controls['cp']?.valid">
+                            Un code postal doit faire 5 caractères numériques
+                        </igx-hint>
+                    </igx-input-group>
+                </div>
+                <igx-input-group type="box" *ngIf="garantieInfos.nom == 'Retenue de garantie marché public' || garantieInfos.nom == 'Retenue de garantie avance marché public' || garantieInfos.nom == 'GAPD' || garantieInfos.nom == 'CPS'">
+                    <input igxInput name="formeJuridique" id="formeJuridique" type="text" [(ngModel)]="beneficiaireInfos.formeJuridique" required/>
+                    <label igxLabel for="formeJuridique">Forme juridique du bénéficiaire</label>
+                </igx-input-group>
+                <igx-input-group type="box" *ngIf="garantieInfos.nom == 'Retenue de garantie marché public' || garantieInfos.nom == 'Retenue de garantie avance marché public' || garantieInfos.nom == 'GAPD' || garantieInfos.nom == 'CPS'">
+                    <input igxInput name="numeroImmatriculation" id="numeroImmatriculation" type="text" [(ngModel)]="beneficiaireInfos.numeroImmatriculation" required/>
+                    <label igxLabel for="numeroImmatriculation">Numéro d'immatriculation du bénéficiaire</label>
+                </igx-input-group>
+                <igx-input-group type="box" *ngIf="garantieInfos.nom == 'Retenue de garantie marché public' || garantieInfos.nom == 'Retenue de garantie avance marché public' || garantieInfos.nom == 'GAPD' || garantieInfos.nom == 'CPS'">
+                    <input igxInput name="lieuImmatriculation" id="lieuImmatriculation" type="text" [(ngModel)]="beneficiaireInfos.lieuImmatriculation" required/>
+                    <label igxLabel for="lieuImmatriculation">Lieu d'immatriculation</label>
+                </igx-input-group>
+            </form>
+            <igx-card  *ngIf="selectedCard">
+                <igx-card-content>
+                    <div class="sample-row sample-card">
+                        <img src="{{selectedCard.img}}" alt="">
+                    </div>
+                    <div>
+                        <span class="card-title">Formulaire {{selectedCard.description}}</span>
+                        <button igxButton="contained" (click)="stepper.prev()">Retour</button>
+                        <button igxButton="flat" (click)="stepper.next()"
+                        [disabled]="!beneficiaireInfosForm.form.valid">Continuer</button>
+                    </div>
+                </igx-card-content>
+            </igx-card>
+        </div>
+    </div>
+    </igx-step>
+    <igx-step #step5>
+    <span igxStepTitle>Pièces-jointes</span>
+    <div igxStepContent [tabIndex]="-1">
+        <div class="sample-row">
+            <form class="flex-form" #piecesJointesInfosForm="ngForm">
+                <p *ngIf="garantieInfos.type == 'Affermage'"> Page de garde du contrat</p>
+                <igx-input-group *ngIf="garantieInfos.type == 'Affermage'">
+                    <label igxLabel>Page de garde du contrat</label>
+                    <input
+                        igxInput
+                        type="file"
+                        name="pageDeGarde"
+                        required
+                        (change)="onFileChange($event, 'pageDeGarde')"
+                        />
+                    <igx-hint>Charger le fichier demandé (obligatoire)</igx-hint>
+                </igx-input-group>
+                <p *ngIf="garantieInfos.type == 'Affermage'"> Page avec objet du contrat et signataire</p>
+                <igx-input-group *ngIf="garantieInfos.type == 'Affermage'">
+                    <label igxLabel>Page avec objet du contrat et signataires</label>
+                    <input
+                        igxInput
+                        type="file"
+                        name="pageObjet"
+                        required
+                        (change)="onFileChange($event, 'pageObjet')"
+                        />
+                    <igx-hint>Charger le fichier demandé (obligatoire)</igx-hint>
+                </igx-input-group>
+                <p *ngIf="garantieInfos.type == 'Affermage'"> Page avec les dates du contrat</p>
+                <igx-input-group *ngIf="garantieInfos.type == 'Affermage'">
+                    <label igxLabel>Page avec les dates du contrat</label>
+                    <input
+                        igxInput
+                        type="file"
+                        name="pageDateContrat"
+                        required
+                        (change)="onFileChange($event, 'pageDateContrat')"
+                        />
+                    <igx-hint>Charger le fichier demandé (obligatoire)</igx-hint>
+                </igx-input-group>
+                <p *ngIf="garantieInfos.type == 'Affermage'"> Page avec l'article de la caution</p>
+                <igx-input-group *ngIf="garantieInfos.type == 'Affermage'">
+                    <label igxLabel>Page avec l'article de la caution</label>
+                    <input
+                        igxInput
+                        type="file"
+                        name="pageArticle"
+                        required
+                        (change)="onFileChange($event, 'pageArticle')"
+                        />
+                    <igx-hint>Charger le fichier demandé (obligatoire)</igx-hint>
+                </igx-input-group>
+                <p *ngIf="garantieInfos.type == 'Affermage'"> Page avec la libération de la caution</p>
+                <igx-input-group *ngIf="garantieInfos.type == 'Affermage'">
+                    <label igxLabel>Page avec la libération de la caution</label>
+                    <input
+                        igxInput
+                        type="file"
+                        name="pageLiberation"
+                        required
+                        (change)="onFileChange($event, 'pageLiberation')"
+                        />
+                    <igx-hint>Optionnel</igx-hint>
+                </igx-input-group>
+                <p *ngIf="garantieInfos.type == 'Travaux'"> Notification du marché</p>
+                <igx-input-group *ngIf="garantieInfos.type == 'Travaux'" required>
+                    <label igxLabel>Notification du marché</label>
+                    <input
+                        igxInput
+                        type="file"
+                        name="notificationMarche"
+                        required
+                        (change)="onFileChange($event, 'notificationMarche')"
+                        style="display: none;"
+                        #fileInput
+                        />
+                        <button type="button" (click)="fileInput.click()">Charger un fichier</button>
+                    <igx-hint>Charger le fichier demandé (obligatoire)</igx-hint>
+                </igx-input-group>
+                <p *ngIf="garantieInfos.type == 'Travaux'"> Acte d'engagement</p>
+                <igx-input-group *ngIf="garantieInfos.type == 'Travaux'" required>
+                    <label igxLabel>Acte d'engagement</label>
+                    <input
+                        igxInput
+                        type="file"
+                        name="acteEngagement"
+                        required
+                        (change)="onFileChange($event, 'acteEngagement')"
+                        />
+                    <igx-hint>Charger le fichier demandé (obligatoire)</igx-hint>
+                </igx-input-group>
+                <p *ngIf="garantieInfos.type == 'Travaux'"> Cahier des clauses administratives particulières</p>
+                <igx-input-group *ngIf="garantieInfos.type == 'Travaux'">
+                    <label igxLabel>Cahier des clauses administratives particulières</label>
+                    <input
+                        igxInput
+                        style="display: none"
+                        id="imageUpload"
+                        type="file"
+                        name="cahierClause"
+                        (change)="onFileChange($event, 'cahierClause')"
+                        />
+                    <igx-hint>Charger le fichier demandé (obligatoire)</igx-hint>
+                </igx-input-group>
+                <p *ngIf="garantieInfos.garantie == 'Contre garantie' || garantieInfos.garantie=='Garantie de paiement sous-traitant'"> Convention de groupement</p>
+                <igx-input-group *ngIf="garantieInfos.garantie == 'Contre garantie' || garantieInfos.garantie=='Garantie de paiement sous-traitant'">
+                    <label igxLabel>Convention de groupement</label>
+                    <input
+                        igxInput
+                        type="file"
+                        name="conventionGroupement"
+                        required
+                        (change)="onFileChange($event, 'conventionGroupement')"
+                        />
+                    <igx-hint>Charger le fichier demandé (obligatoire)</igx-hint>
+                </igx-input-group>
+            </form>
+            <igx-card  *ngIf="selectedCard">
+                <igx-card-content>
+                    <div class="sample-row sample-card">
+                        <img src="{{selectedCard.img}}" alt="">
+                    </div>
+                    <div>
+                        <span class="card-title">Formulaire {{selectedCard.description}}</span>
+                        <button igxButton="contained" (click)="stepper.prev()">Retour</button>
+                        <button igxButton="flat" (click)="stepper.next()"
+                        [disabled]="!allFilesLoaded">Continuer</button>
+                    </div>
+                </igx-card-content>
+            </igx-card>
+        </div>
+    </div>
+    </igx-step>
+    <igx-step #step6>
+        <span igxStepTitle>Confirmation</span>
+        <div igxStepContent [tabIndex]="-1">
+            <div class="success-message">
+                <div class="success-marker">
+                    <igx-icon>check</igx-icon>
+                </div>
+                <div class="success-text">
+                    <h2 class="sample-step-title">Vous avez terminé de remplir votre formulaire concernant les cautions !</h2>
+                    <p>La dernière étape ? Appuyer sur le bouton d'envoi du formulaire. N'hésitez pas à vérifier les informations remplies en cliquant sur "Mon formulaire" avant d'envoyer.</p>
+                    <p>Après validation, vous recevrez un mail vous confirmant la bonne reception de votre demande ainsi que le suivi de celle-ci.</p>
+                    <p>A Bientôt !</p>
+                </div>
+            </div>
+            <igx-dialog #dialog title="Confirmation"
+                leftButtonLabel="Annuler"
+                (leftButtonSelect)="dialog.close()"
+                rightButtonLabel="Envoyer"
+                (rightButtonSelect)="sendEmail()">
+                    <p>Le demandeur:</p>
+                    <div *ngFor="let key of getKeys(generalInfos)">
+                        <strong>{{ key }}:</strong> {{ generalInfos[key] }}
+                    </div>
+                    <p>Le bénéficiaire:</p>
+                    <div *ngFor="let key of getKeys(beneficiaireInfos)">
+                        <strong>{{ key }}:</strong> {{ beneficiaireInfos[key] }}
+                    </div>
+                    <p>La garantie:</p>
+                    <div *ngFor="let key of getKeys(garantieInfos)">
+                        <strong>{{ key }}:</strong> {{ garantieInfos[key] }}
+                    </div>
+            </igx-dialog>
+            <igx-card class="sample-small-card"  *ngIf="selectedCard">
+                <igx-card-content>
+                    <strong class="sample-date">Date d'envoi: {{ today | date:'d MMM y' }}</strong>
+                    <div class="sample-row sample-card">
+                        <img src="{{selectedCard.img}}" alt="">
+                        <div>
+                            <span class="card-currency">{{selectedCard.price}}</span>
+                            <span class="card-title">{{selectedCard.offer}}</span>
+                            <p>{{selectedCard.description}}</p>
+                        </div>
+                    </div>
+                </igx-card-content>
+            </igx-card>
+            <div class="sample-step-actions">
+                <button igxButton="contained"
+                    (click)="resetStepper(generalInfosForm, beneficiaireInfosForm, piecesJointesInfosForm, garantieInfosForm)">Recommencer</button>
+                <button igxButton="flat" (click)="dialog.open()">Envoyer Formulaire</button>
+            </div>
+        </div>
+    </igx-step>
+    </igx-stepper>

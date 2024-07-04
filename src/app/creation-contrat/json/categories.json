@@ -1,0 +1,17 @@
+[
+  {
+    "cat": "DIV",
+    "categorieType": "DIVERS",
+    "categorie": "DIVERS / FONCTIONNEL",
+  },
+  {
+    "cat": "DSP",
+    "categorieType": "DSP",
+    "categorie": "DELEGATION SERVICE PUBLIC",
+  },
+  {
+    "cat": "HDSP",
+    "categorieType": "HDSP",
+    "categorie": "HORS DELEGATION SERVICE PUBLIC",
+  },
+]

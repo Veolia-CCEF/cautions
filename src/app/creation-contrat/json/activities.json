@@ -1,0 +1,42 @@
+[
+  {
+    "activity": "Bureau d'études engineering",
+    "codeDSP": "19",
+    "codeHDSP": "30"
+  },
+  {
+    "activity": "X-Autre",
+    "codeDSP": "99",
+    "codeHDSP": "99"
+  },
+  {
+    "activity": "IndustrieConception et construction usine",
+    "codeDSP": "",
+    "codeHDSP": "31"
+  },
+  {
+    "activity": "Opérations: Circuits de refroidissement",
+    "codeDSP": "",
+    "codeHDSP": "36"
+  },
+  {
+    "activity": "Opérations: Eaux de process",
+    "codeDSP": "",
+    "codeHDSP": "34"
+  },
+  {
+    "activity": "Opérations: traitement des effluents industriels",
+    "codeDSP": "",
+    "codeHDSP": "35"
+  },
+  {
+    "activity": "Solutions industrielles",
+    "codeDSP": "",
+    "codeHDSP": "32"
+  },
+  {
+    "activity": "Travaux sur réseaux industriels",
+    "codeDSP": "",
+    "codeHDSP": "33"
+  }
+]

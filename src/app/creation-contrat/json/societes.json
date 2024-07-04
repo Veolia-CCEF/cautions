@@ -1,0 +1,2130 @@
+[
+  {
+    "numreg": "09",
+    "code": "0002",
+    "description": "0002 - VECGE - VEOLIA EAU - COMPAGNIE GENERALE DES EAUX",
+    "libelle": "VECGE",
+    "extension": "CG"
+  },
+  {
+    "numreg": 19,
+    "code": "0002",
+    "description": "0002 - VECGE - VEOLIA EAU - COMPAGNIE GENERALE DES EAUX",
+    "libelle": "VECGE",
+    "extension": "CG"
+  },
+  {
+    "numreg": 29,
+    "code": "0002",
+    "description": "0002 - VECGE - VEOLIA EAU - COMPAGNIE GENERALE DES EAUX",
+    "libelle": "VECGE",
+    "extension": "CG"
+  },
+  {
+    "numreg": 39,
+    "code": "0002",
+    "description": "0002 - VECGE - VEOLIA EAU - COMPAGNIE GENERALE DES EAUX",
+    "libelle": "VECGE",
+    "extension": "CG"
+  },
+  {
+    "numreg": 49,
+    "code": "0002",
+    "description": "0002 - VECGE - VEOLIA EAU - COMPAGNIE GENERALE DES EAUX",
+    "libelle": "VECGE",
+    "extension": "CG"
+  },
+  {
+    "numreg": 60,
+    "code": "0002",
+    "description": "0002 - VECGE - VEOLIA EAU - COMPAGNIE GENERALE DES EAUX",
+    "libelle": "VECGE",
+    "extension": "CG"
+  },
+  {
+    "numreg": 62,
+    "code": "0002",
+    "description": "0002 - VECGE - VEOLIA EAU - COMPAGNIE GENERALE DES EAUX",
+    "libelle": "VECGE",
+    "extension": "CG"
+  },
+  {
+    "numreg": 63,
+    "code": "0002",
+    "description": "0002 - VECGE - VEOLIA EAU - COMPAGNIE GENERALE DES EAUX",
+    "libelle": "VECGE",
+    "extension": "CG"
+  },
+  {
+    "numreg": 64,
+    "code": "0002",
+    "description": "0002 - VECGE - VEOLIA EAU - COMPAGNIE GENERALE DES EAUX",
+    "libelle": "VECGE",
+    "extension": "CG"
+  },
+  {
+    "numreg": 65,
+    "code": "0002",
+    "description": "0002 - VECGE - VEOLIA EAU - COMPAGNIE GENERALE DES EAUX",
+    "libelle": "VECGE",
+    "extension": "CG"
+  },
+  {
+    "numreg": 66,
+    "code": "0002",
+    "description": "0002 - VECGE - VEOLIA EAU - COMPAGNIE GENERALE DES EAUX",
+    "libelle": "VECGE",
+    "extension": "CG"
+  },
+  {
+    "numreg": 67,
+    "code": "0002",
+    "description": "0002 - VECGE - VEOLIA EAU - COMPAGNIE GENERALE DES EAUX",
+    "libelle": "VECGE",
+    "extension": "CG"
+  },
+  {
+    "numreg": 68,
+    "code": "0002",
+    "description": "0002 - VECGE - VEOLIA EAU - COMPAGNIE GENERALE DES EAUX",
+    "libelle": "VECGE",
+    "extension": "CG"
+  },
+  {
+    "numreg": 69,
+    "code": "0002",
+    "description": "0002 - VECGE - VEOLIA EAU - COMPAGNIE GENERALE DES EAUX",
+    "libelle": "VECGE",
+    "extension": "CG"
+  },
+  {
+    "numreg": 70,
+    "code": "0002",
+    "description": "0002 - VECGE - VEOLIA EAU - COMPAGNIE GENERALE DES EAUX",
+    "libelle": "VECGE",
+    "extension": "CG"
+  },
+  {
+    "numreg": 79,
+    "code": "0002",
+    "description": "0002 - VECGE - VEOLIA EAU - COMPAGNIE GENERALE DES EAUX",
+    "libelle": "VECGE",
+    "extension": "CG"
+  },
+  {
+    "numreg": "09",
+    "code": "0101",
+    "description": "0101 - CEO - COMPAGNIE DES EAUX ET DE L'OZONE",
+    "libelle": "CEO",
+    "extension": "CO"
+  },
+  {
+    "numreg": 19,
+    "code": "0101",
+    "description": "0101 - CEO - COMPAGNIE DES EAUX ET DE L'OZONE",
+    "libelle": "CEO",
+    "extension": "CO"
+  },
+  {
+    "numreg": 29,
+    "code": "0101",
+    "description": "0101 - CEO - COMPAGNIE DES EAUX ET DE L'OZONE",
+    "libelle": "CEO",
+    "extension": "CO"
+  },
+  {
+    "numreg": 39,
+    "code": "0101",
+    "description": "0101 - CEO - COMPAGNIE DES EAUX ET DE L'OZONE",
+    "libelle": "CEO",
+    "extension": "CO"
+  },
+  {
+    "numreg": 49,
+    "code": "0101",
+    "description": "0101 - CEO - COMPAGNIE DES EAUX ET DE L'OZONE",
+    "libelle": "CEO",
+    "extension": "CO"
+  },
+  {
+    "numreg": 60,
+    "code": "0101",
+    "description": "0101 - CEO - COMPAGNIE DES EAUX ET DE L'OZONE",
+    "libelle": "CEO",
+    "extension": "CO"
+  },
+  {
+    "numreg": 62,
+    "code": "0101",
+    "description": "0101 - CEO - COMPAGNIE DES EAUX ET DE L'OZONE",
+    "libelle": "CEO",
+    "extension": "CO"
+  },
+  {
+    "numreg": 63,
+    "code": "0101",
+    "description": "0101 - CEO - COMPAGNIE DES EAUX ET DE L'OZONE",
+    "libelle": "CEO",
+    "extension": "CO"
+  },
+  {
+    "numreg": 64,
+    "code": "0101",
+    "description": "0101 - CEO - COMPAGNIE DES EAUX ET DE L'OZONE",
+    "libelle": "CEO",
+    "extension": "CO"
+  },
+  {
+    "numreg": 65,
+    "code": "0101",
+    "description": "0101 - CEO - COMPAGNIE DES EAUX ET DE L'OZONE",
+    "libelle": "CEO",
+    "extension": "CO"
+  },
+  {
+    "numreg": 66,
+    "code": "0101",
+    "description": "0101 - CEO - COMPAGNIE DES EAUX ET DE L'OZONE",
+    "libelle": "CEO",
+    "extension": "CO"
+  },
+  {
+    "numreg": 67,
+    "code": "0101",
+    "description": "0101 - CEO - COMPAGNIE DES EAUX ET DE L'OZONE",
+    "libelle": "CEO",
+    "extension": "CO"
+  },
+  {
+    "numreg": 68,
+    "code": "0101",
+    "description": "0101 - CEO - COMPAGNIE DES EAUX ET DE L'OZONE",
+    "libelle": "CEO",
+    "extension": "CO"
+  },
+  {
+    "numreg": 69,
+    "code": "0101",
+    "description": "0101 - CEO - COMPAGNIE DES EAUX ET DE L'OZONE",
+    "libelle": "CEO",
+    "extension": "CO"
+  },
+  {
+    "numreg": 70,
+    "code": "0101",
+    "description": "0101 - CEO - COMPAGNIE DES EAUX ET DE L'OZONE",
+    "libelle": "CEO",
+    "extension": "CO"
+  },
+  {
+    "numreg": "09",
+    "code": "0102",
+    "description": "0102 - SDE - STE FRANCAISE DE DISTRIBUTION DE L'EAU",
+    "libelle": "SFDE",
+    "extension": "FS"
+  },
+  {
+    "numreg": 19,
+    "code": "0102",
+    "description": "0102 - SDE - STE FRANCAISE DE DISTRIBUTION DE L'EAU",
+    "libelle": "SFDE",
+    "extension": "FS"
+  },
+  {
+    "numreg": 67,
+    "code": "0102",
+    "description": "0102 - SDE - STE FRANCAISE DE DISTRIBUTION DE L'EAU",
+    "libelle": "SFDE",
+    "extension": "FS"
+  },
+  {
+    "numreg": "09",
+    "code": "0103",
+    "description": "0103 - CFSP - COMPAGNIE FERMIERE DES SERVICES PUBLICS",
+    "libelle": "CFSP",
+    "extension": "FS"
+  },
+  {
+    "numreg": 19,
+    "code": "0103",
+    "description": "0103 - CFSP - COMPAGNIE FERMIERE DES SERVICES PUBLICS",
+    "libelle": "CFSP",
+    "extension": "FS"
+  },
+  {
+    "numreg": 29,
+    "code": "0103",
+    "description": "0103 - CFSP - COMPAGNIE FERMIERE DES SERVICES PUBLICS",
+    "libelle": "CFSP",
+    "extension": "FS"
+  },
+  {
+    "numreg": 60,
+    "code": "0103",
+    "description": "0103 - CFSP - COMPAGNIE FERMIERE DES SERVICES PUBLICS",
+    "libelle": "CFSP",
+    "extension": "FS"
+  },
+  {
+    "numreg": 65,
+    "code": "0103",
+    "description": "0103 - CFSP - COMPAGNIE FERMIERE DES SERVICES PUBLICS",
+    "libelle": "CFSP",
+    "extension": "FS"
+  },
+  {
+    "numreg": 66,
+    "code": "0103",
+    "description": "0103 - CFSP - COMPAGNIE FERMIERE DES SERVICES PUBLICS",
+    "libelle": "CFSP",
+    "extension": "FS"
+  },
+  {
+    "numreg": 68,
+    "code": "0103",
+    "description": "0103 - CFSP - COMPAGNIE FERMIERE DES SERVICES PUBLICS",
+    "libelle": "CFSP",
+    "extension": "FS"
+  },
+  {
+    "numreg": "09",
+    "code": "0104",
+    "description": "0104 - CMESE COMPAGNIE MEDITERRANEENNE D'EXPLOITATION DES SERVICES D'EAU",
+    "libelle": "CMESE",
+    "extension": "T0"
+  },
+  {
+    "numreg": 49,
+    "code": "0104",
+    "description": "0104 - CMESE COMPAGNIE MEDITERRANEENNE D'EXPLOITATION DES SERVICES D'EAU",
+    "libelle": "CMESE",
+    "extension": "T1"
+  },
+  {
+    "numreg": 49,
+    "code": "0104",
+    "description": "0104 - CMESE COMPAGNIE MEDITERRANEENNE D'EXPLOITATION DES SERVICES D'EAU",
+    "libelle": "CMESE",
+    "extension": "T2"
+  },
+  {
+    "numreg": 49,
+    "code": "0104",
+    "description": "0104 - CMESE COMPAGNIE MEDITERRANEENNE D'EXPLOITATION DES SERVICES D'EAU",
+    "libelle": "CMESE",
+    "extension": "T3"
+  },
+  {
+    "numreg": 69,
+    "code": "0104",
+    "description": "0104 - CMESE COMPAGNIE MEDITERRANEENNE D'EXPLOITATION DES SERVICES D'EAU",
+    "libelle": "CMESE",
+    "extension": "T4"
+  },
+  {
+    "numreg": 69,
+    "code": "0104",
+    "description": "0104 - CMESE COMPAGNIE MEDITERRANEENNE D'EXPLOITATION DES SERVICES D'EAU",
+    "libelle": "CMESE",
+    "extension": "T5"
+  },
+  {
+    "numreg": 69,
+    "code": "0104",
+    "description": "0104 - CMESE COMPAGNIE MEDITERRANEENNE D'EXPLOITATION DES SERVICES D'EAU",
+    "libelle": "CMESE",
+    "extension": "T6"
+  },
+  {
+    "numreg": 69,
+    "code": "0104",
+    "description": "0104 - CMESE COMPAGNIE MEDITERRANEENNE D'EXPLOITATION DES SERVICES D'EAU",
+    "libelle": "CMESE",
+    "extension": "T7"
+  },
+  {
+    "numreg": 69,
+    "code": "0104",
+    "description": "0104 - CMESE COMPAGNIE MEDITERRANEENNE D'EXPLOITATION DES SERVICES D'EAU",
+    "libelle": "CMESE",
+    "extension": "T8"
+  },
+  {
+    "numreg": 69,
+    "code": "0104",
+    "description": "0104 - CMESE COMPAGNIE MEDITERRANEENNE D'EXPLOITATION DES SERVICES D'EAU",
+    "libelle": "CMESE",
+    "extension": "T9"
+  },
+  {
+    "numreg": 69,
+    "code": "0104",
+    "description": "0104 - CMESE COMPAGNIE MEDITERRANEENNE D'EXPLOITATION DES SERVICES D'EAU",
+    "libelle": "CMESE",
+    "extension": "T10"
+  },
+  {
+    "numreg": "09",
+    "code": "0105",
+    "description": "0105 - STE DES EAUX DE MELUN",
+    "libelle": "",
+    "extension": "T0"
+  },
+  {
+    "numreg": 19,
+    "code": "0105",
+    "description": "0105 - STE DES EAUX DE MELUN",
+    "libelle": "",
+    "extension": "T0"
+  },
+  {
+    "numreg": 67,
+    "code": "0105",
+    "description": "0105 - STE DES EAUX DE MELUN",
+    "libelle": "",
+    "extension": "T0"
+  },
+  {
+    "numreg": "09",
+    "code": "0106",
+    "description": "0106 - STE DES EAUX DE CAMBRAI",
+    "libelle": "",
+    "extension": "YH"
+  },
+  {
+    "numreg": 19,
+    "code": "0106",
+    "description": "0106 - STE DES EAUX DE CAMBRAI",
+    "libelle": "",
+    "extension": "YH"
+  },
+  {
+    "numreg": 66,
+    "code": "0106",
+    "description": "0106 - STE DES EAUX DE CAMBRAI",
+    "libelle": "",
+    "extension": "YH"
+  },
+  {
+    "numreg": "09",
+    "code": "0107",
+    "description": "0107 - STE DES EAUX DE ST OMER",
+    "libelle": "",
+    "extension": "YI"
+  },
+  {
+    "numreg": 19,
+    "code": "0107",
+    "description": "0107 - STE DES EAUX DE ST OMER",
+    "libelle": "",
+    "extension": "YI"
+  },
+  {
+    "numreg": 66,
+    "code": "0107",
+    "description": "0107 - STE DES EAUX DE ST OMER",
+    "libelle": "",
+    "extension": "YI"
+  },
+  {
+    "numreg": "09",
+    "code": "0108",
+    "description": "0108 - STE DES EAUX DE PICARDIE",
+    "libelle": "",
+    "extension": "P0"
+  },
+  {
+    "numreg": 19,
+    "code": "0108",
+    "description": "0108 - STE DES EAUX DE PICARDIE",
+    "libelle": "",
+    "extension": "P0"
+  },
+  {
+    "numreg": 66,
+    "code": "0108",
+    "description": "0108 - STE DES EAUX DE PICARDIE",
+    "libelle": "",
+    "extension": "P0"
+  },
+  {
+    "numreg": "09",
+    "code": "0109",
+    "description": "0109 - CDEA",
+    "libelle": "CDEA",
+    "extension": "ZG"
+  },
+  {
+    "numreg": 39,
+    "code": "0109",
+    "description": "0109 - CDEA",
+    "libelle": "CDEA",
+    "extension": "ZG"
+  },
+  {
+    "numreg": 62,
+    "code": "0109",
+    "description": "0109 - CDEA",
+    "libelle": "CDEA",
+    "extension": "ZG"
+  },
+  {
+    "numreg": "09",
+    "code": "0110",
+    "description": "0110 - CEBH",
+    "libelle": "CEBH",
+    "extension": "ZL"
+  },
+  {
+    "numreg": 19,
+    "code": "0110",
+    "description": "0110 - CEBH",
+    "libelle": "CEBH",
+    "extension": "ZL"
+  },
+  {
+    "numreg": 68,
+    "code": "0110",
+    "description": "0110 - CEBH",
+    "libelle": "CEBH",
+    "extension": "ZL"
+  },
+  {
+    "numreg": "09",
+    "code": "0112",
+    "description": "0112 - SETDN",
+    "libelle": "SETDN",
+    "extension": "ZB"
+  },
+  {
+    "numreg": 19,
+    "code": "0112",
+    "description": "0112 - SETDN",
+    "libelle": "SETDN",
+    "extension": "ZB"
+  },
+  {
+    "numreg": 68,
+    "code": "0112",
+    "description": "0112 - SETDN",
+    "libelle": "SETDN",
+    "extension": "ZB"
+  },
+  {
+    "numreg": "09",
+    "code": "0114",
+    "description": "0114 - CEML - COMPAGNIE DES EAUX DE MAISONS LAFFITTE",
+    "libelle": "CEML",
+    "extension": "YD"
+  },
+  {
+    "numreg": 19,
+    "code": "0114",
+    "description": "0114 - CEML - COMPAGNIE DES EAUX DE MAISONS LAFFITTE",
+    "libelle": "CEML",
+    "extension": "YD"
+  },
+  {
+    "numreg": 67,
+    "code": "0114",
+    "description": "0114 - CEML - COMPAGNIE DES EAUX DE MAISONS LAFFITTE",
+    "libelle": "CEML",
+    "extension": "YD"
+  },
+  {
+    "numreg": "09",
+    "code": "0115",
+    "description": "0115 - SEAO",
+    "libelle": "SEAO",
+    "extension": "AO"
+  },
+  {
+    "numreg": 19,
+    "code": "0115",
+    "description": "0115 - SEAO",
+    "libelle": "SEAO",
+    "extension": "AO"
+  },
+  {
+    "numreg": 60,
+    "code": "0115",
+    "description": "0115 - SEAO",
+    "libelle": "SEAO",
+    "extension": "AO"
+  },
+  {
+    "numreg": 66,
+    "code": "0115",
+    "description": "0115 - SEAO",
+    "libelle": "SEAO",
+    "extension": "AO"
+  },
+  {
+    "numreg": 67,
+    "code": "0115",
+    "description": "0115 - SEAO",
+    "libelle": "SEAO",
+    "extension": "AO"
+  },
+  {
+    "numreg": 68,
+    "code": "0115",
+    "description": "0115 - SEAO",
+    "libelle": "SEAO",
+    "extension": "AO"
+  },
+  {
+    "numreg": "09",
+    "code": "0116",
+    "description": "0116 - SRDE - STE REGIONALE DE DISTRIBUTION DE L'EAU",
+    "libelle": "SRDE",
+    "extension": "ZJ"
+  },
+  {
+    "numreg": 49,
+    "code": "0116",
+    "description": "0116 - SRDE - STE REGIONALE DE DISTRIBUTION DE L'EAU",
+    "libelle": "SRDE",
+    "extension": "ZJ"
+  },
+  {
+    "numreg": 70,
+    "code": "0116",
+    "description": "0116 - SRDE - STE REGIONALE DE DISTRIBUTION DE L'EAU",
+    "libelle": "SRDE",
+    "extension": "ZJ"
+  },
+  {
+    "numreg": "09",
+    "code": "0117",
+    "description": "0117 - STE ENVIRON DU BASSIN DE LACQ",
+    "libelle": "SEBL",
+    "extension": "IA"
+  },
+  {
+    "numreg": 29,
+    "code": "0117",
+    "description": "0117 - STE ENVIRON DU BASSIN DE LACQ",
+    "libelle": "SEBL",
+    "extension": "IA"
+  },
+  {
+    "numreg": 64,
+    "code": "0117",
+    "description": "0117 - STE ENVIRON DU BASSIN DE LACQ",
+    "libelle": "SEBL",
+    "extension": "IA"
+  },
+  {
+    "numreg": "09",
+    "code": "0119",
+    "description": "0119 - STE AVIGNONNAISE DES EAUX",
+    "libelle": "",
+    "extension": "ZQ"
+  },
+  {
+    "numreg": 49,
+    "code": "0119",
+    "description": "0119 - STE AVIGNONNAISE DES EAUX",
+    "libelle": "",
+    "extension": "ZQ"
+  },
+  {
+    "numreg": 69,
+    "code": "0119",
+    "description": "0119 - STE AVIGNONNAISE DES EAUX",
+    "libelle": "",
+    "extension": "ZQ"
+  },
+  {
+    "numreg": "09",
+    "code": "0126",
+    "description": "0126 - VEELH",
+    "libelle": "VEELH",
+    "extension": "YM"
+  },
+  {
+    "numreg": 19,
+    "code": "0126",
+    "description": "0126 - VEELH",
+    "libelle": "VEELH",
+    "extension": "YM"
+  },
+  {
+    "numreg": 68,
+    "code": "0126",
+    "description": "0126 - VEELH",
+    "libelle": "VEELH",
+    "extension": "YM"
+  },
+  {
+    "numreg": 65,
+    "code": "0140",
+    "description": "0140 - VAL DE LOIRE SOLOGNE TRAVAUX PUBLICS",
+    "libelle": "",
+    "extension": ""
+  },
+  {
+    "numreg": "09",
+    "code": "0152",
+    "description": "0152 - STE DES EAUX DE DOUAI",
+    "libelle": "",
+    "extension": "GA"
+  },
+  {
+    "numreg": 19,
+    "code": "0152",
+    "description": "0152 - STE DES EAUX DE DOUAI",
+    "libelle": "",
+    "extension": "GA"
+  },
+  {
+    "numreg": 66,
+    "code": "0152",
+    "description": "0152 - STE DES EAUX DE DOUAI",
+    "libelle": "",
+    "extension": "GA"
+  },
+  {
+    "numreg": "09",
+    "code": "0154",
+    "description": "0154 - STE MOSELLANE DES EAUX",
+    "libelle": "",
+    "extension": "ZH"
+  },
+  {
+    "numreg": 39,
+    "code": "0154",
+    "description": "0154 - STE MOSELLANE DES EAUX",
+    "libelle": "",
+    "extension": "ZH"
+  },
+  {
+    "numreg": 62,
+    "code": "0154",
+    "description": "0154 - STE MOSELLANE DES EAUX",
+    "libelle": "",
+    "extension": "ZH"
+  },
+  {
+    "numreg": "09",
+    "code": "0160",
+    "description": "0160 - SSSP - STE STEPHANOISE DE SERVICES PUBLICS",
+    "libelle": "SSSP",
+    "extension": "ZX"
+  },
+  {
+    "numreg": 39,
+    "code": "0160",
+    "description": "0160 - SSSP - STE STEPHANOISE DE SERVICES PUBLICS",
+    "libelle": "SSSP",
+    "extension": "ZX"
+  },
+  {
+    "numreg": "09",
+    "code": "0171",
+    "description": "0171 - VAG - STE VAROISE D'AMENAGEMENT",
+    "libelle": "VAG",
+    "extension": "ZP"
+  },
+  {
+    "numreg": 49,
+    "code": "0171",
+    "description": "0171 - VAG - STE VAROISE D'AMENAGEMENT",
+    "libelle": "VAG",
+    "extension": "ZP"
+  },
+  {
+    "numreg": 69,
+    "code": "0171",
+    "description": "0171 - VAG - STE VAROISE D'AMENAGEMENT",
+    "libelle": "VAG",
+    "extension": "ZP"
+  },
+  {
+    "numreg": "09",
+    "code": "0207",
+    "description": "0207 - SMADEC - SOCIETE MACONNAISE D'ASSAINISSEMENT DE DISTRIBUTION D'EAU ET DE CHALEUR",
+    "libelle": "SMADEC",
+    "extension": "ZW"
+  },
+  {
+    "numreg": 39,
+    "code": "0207",
+    "description": "0207 - SMADEC - SOCIETE MACONNAISE D'ASSAINISSEMENT DE DISTRIBUTION D'EAU ET DE CHALEUR",
+    "libelle": "SMADEC",
+    "extension": "ZW"
+  },
+  {
+    "numreg": 63,
+    "code": "0207",
+    "description": "0207 - SMADEC - SOCIETE MACONNAISE D'ASSAINISSEMENT DE DISTRIBUTION D'EAU ET DE CHALEUR",
+    "libelle": "SMADEC",
+    "extension": "ZW"
+  },
+  {
+    "numreg": "09",
+    "code": "0219",
+    "description": "0219 - ECHM - EAU ET CHALEUR EN HAUTE NORMANDIE",
+    "libelle": "ECHM",
+    "extension": "ZU"
+  },
+  {
+    "numreg": 39,
+    "code": "0219",
+    "description": "0219 - ECHM - EAU ET CHALEUR EN HAUTE NORMANDIE",
+    "libelle": "ECHM",
+    "extension": "ZU"
+  },
+  {
+    "numreg": 63,
+    "code": "0219",
+    "description": "0219 - ECHM - EAU ET CHALEUR EN HAUTE NORMANDIE",
+    "libelle": "ECHM",
+    "extension": "ZU"
+  },
+  {
+    "numreg": "09",
+    "code": "0407",
+    "description": "0407 - SEG - SOCIETE D'ENTREPRISES ET DE GESTION",
+    "libelle": "SEG",
+    "extension": "ZT"
+  },
+  {
+    "numreg": 19,
+    "code": "0407",
+    "description": "0407 - SEG - SOCIETE D'ENTREPRISES ET DE GESTION",
+    "libelle": "SEG",
+    "extension": "ZT"
+  },
+  {
+    "numreg": 29,
+    "code": "0407",
+    "description": "0407 - SEG - SOCIETE D'ENTREPRISES ET DE GESTION",
+    "libelle": "SEG",
+    "extension": "ZT"
+  },
+  {
+    "numreg": 65,
+    "code": "0407",
+    "description": "0407 - SEG - SOCIETE D'ENTREPRISES ET DE GESTION",
+    "libelle": "SEG",
+    "extension": "ZT"
+  },
+  {
+    "numreg": "09",
+    "code": "0415",
+    "description": "0415 - SA DES EAUX DU TOUQUET-PARIS PLAGE & EXTENSIONS",
+    "libelle": "",
+    "extension": "YF"
+  },
+  {
+    "numreg": 19,
+    "code": "0415",
+    "description": "0415 - SA DES EAUX DU TOUQUET-PARIS PLAGE & EXTENSIONS",
+    "libelle": "",
+    "extension": "YF"
+  },
+  {
+    "numreg": 66,
+    "code": "0415",
+    "description": "0415 - SA DES EAUX DU TOUQUET-PARIS PLAGE & EXTENSIONS",
+    "libelle": "",
+    "extension": "YF"
+  },
+  {
+    "numreg": "09",
+    "code": "0703",
+    "description": "0703 - STE DAUPHINOISE D'ASSAINISSEMENT",
+    "libelle": "",
+    "extension": "SD"
+  },
+  {
+    "numreg": 39,
+    "code": "0703",
+    "description": "0703 - STE DAUPHINOISE D'ASSAINISSEMENT",
+    "libelle": "",
+    "extension": "SD"
+  },
+  {
+    "numreg": 63,
+    "code": "0703",
+    "description": "0703 - STE DAUPHINOISE D'ASSAINISSEMENT",
+    "libelle": "",
+    "extension": "SD"
+  },
+  {
+    "numreg": "09",
+    "code": "0708",
+    "description": "0708 - CPA - CERGY PONTOISE ASSAINISSEMENT",
+    "libelle": "CPA",
+    "extension": "CP"
+  },
+  {
+    "numreg": 19,
+    "code": "0708",
+    "description": "0708 - CPA - CERGY PONTOISE ASSAINISSEMENT",
+    "libelle": "CPA",
+    "extension": "CP"
+  },
+  {
+    "numreg": 67,
+    "code": "0708",
+    "description": "0708 - CPA - CERGY PONTOISE ASSAINISSEMENT",
+    "libelle": "CPA",
+    "extension": "CP"
+  },
+  {
+    "numreg": "09",
+    "code": "0876",
+    "description": "0876 - SME - STE MERIDIONALE D'ENVIRONNEMENT",
+    "libelle": "SME",
+    "extension": "ZK"
+  },
+  {
+    "numreg": 29,
+    "code": "0876",
+    "description": "0876 - SME - STE MERIDIONALE D'ENVIRONNEMENT",
+    "libelle": "SME",
+    "extension": "ZK"
+  },
+  {
+    "numreg": 64,
+    "code": "0876",
+    "description": "0876 - SME - STE MERIDIONALE D'ENVIRONNEMENT",
+    "libelle": "SME",
+    "extension": "ZK"
+  },
+  {
+    "numreg": "09",
+    "code": 1092,
+    "description": "1092 - CAEA - COMPAGNIE ALSACIENNE EAU ASSAINISSEMENT",
+    "libelle": "CAEA",
+    "extension": "SC"
+  },
+  {
+    "numreg": 39,
+    "code": 1092,
+    "description": "1092 - CAEA - COMPAGNIE ALSACIENNE EAU ASSAINISSEMENT",
+    "libelle": "CAEA",
+    "extension": "SC"
+  },
+  {
+    "numreg": 62,
+    "code": 1092,
+    "description": "1092 - CAEA - COMPAGNIE ALSACIENNE EAU ASSAINISSEMENT",
+    "libelle": "CAEA",
+    "extension": "SC"
+  },
+  {
+    "numreg": "09",
+    "code": 1094,
+    "description": "1094 - STE EAUX IND PORT JEROME",
+    "libelle": "",
+    "extension": "PJ"
+  },
+  {
+    "numreg": 19,
+    "code": 1094,
+    "description": "1094 - STE EAUX IND PORT JEROME",
+    "libelle": "",
+    "extension": "PJ"
+  },
+  {
+    "numreg": 68,
+    "code": 1094,
+    "description": "1094 - STE EAUX IND PORT JEROME",
+    "libelle": "",
+    "extension": "PJ"
+  },
+  {
+    "numreg": 64,
+    "code": 9010,
+    "description": "9010 - SOCIETE DES EAUX DE TOULOUSE METROPOLE",
+    "libelle": "SETOM",
+    "extension": "IG"
+  },
+  {
+    "numreg": 70,
+    "code": 9012,
+    "description": "9012 - SOCIETE DES EAUX DE LA METROPOLE NIMOISE",
+    "libelle": "NIMES",
+    "extension": "JN"
+  },
+  {
+    "numreg": 62,
+    "code": 9016,
+    "description": "9016 - PAYS DE MONTBELIARD",
+    "libelle": "MONTBE",
+    "extension": "MO"
+  },
+  {
+    "numreg": "09",
+    "code": 9024,
+    "description": "9024 - CEC - COMPAGNIE D'EXPLOITATION ET DE COMPTAGE",
+    "libelle": "CEC",
+    "extension": "ZN"
+  },
+  {
+    "numreg": 49,
+    "code": 9024,
+    "description": "9024 - CEC - COMPAGNIE D'EXPLOITATION ET DE COMPTAGE",
+    "libelle": "CEC",
+    "extension": "ZN"
+  },
+  {
+    "numreg": 69,
+    "code": 9024,
+    "description": "9024 - CEC - COMPAGNIE D'EXPLOITATION ET DE COMPTAGE",
+    "libelle": "CEC",
+    "extension": "ZN"
+  },
+  {
+    "numreg": 63,
+    "code": 9082,
+    "description": "9082 - SOCIETE NOUVELLE CHAPUIS",
+    "libelle": "CHA",
+    "extension": "CH"
+  },
+  {
+    "numreg": 64,
+    "code": 9172,
+    "description": "9172 - GRAND MONTAUBAN EAU",
+    "libelle": "GME",
+    "extension": "GM"
+  },
+  {
+    "numreg": 67,
+    "code": 9201,
+    "description": "9201 - SIVAL",
+    "libelle": "SIVAL",
+    "extension": "SV"
+  },
+  {
+    "numreg": 70,
+    "code": "A006",
+    "description": "A006 - SODEPLA",
+    "libelle": "",
+    "extension": "JS"
+  },
+  {
+    "numreg": "09",
+    "code": "A010",
+    "description": "A010 - SNC OTV EXPLOITATIONS ROUENNAISES",
+    "libelle": "",
+    "extension": "YN"
+  },
+  {
+    "numreg": 19,
+    "code": "A010",
+    "description": "A010 - SNC OTV EXPLOITATIONS ROUENNAISES",
+    "libelle": "",
+    "extension": "YN"
+  },
+  {
+    "numreg": 68,
+    "code": "A010",
+    "description": "A010 - SNC OTV EXPLOITATIONS ROUENNAISES",
+    "libelle": "",
+    "extension": "YN"
+  },
+  {
+    "numreg": "09",
+    "code": "A013",
+    "description": "A013 - CYO",
+    "libelle": "",
+    "extension": "YO"
+  },
+  {
+    "numreg": 19,
+    "code": "A013",
+    "description": "A013 - CYO",
+    "libelle": "",
+    "extension": "YO"
+  },
+  {
+    "numreg": 67,
+    "code": "A013",
+    "description": "A013 - CYO",
+    "libelle": "",
+    "extension": "YO"
+  },
+  {
+    "numreg": "09",
+    "code": "A017",
+    "description": "A017 - SET - SOCIETE DES EAUX DE TOULON",
+    "libelle": "SET",
+    "extension": "YP"
+  },
+  {
+    "numreg": 49,
+    "code": "A017",
+    "description": "A017 - SET - SOCIETE DES EAUX DE TOULON",
+    "libelle": "SET",
+    "extension": "YP"
+  },
+  {
+    "numreg": 69,
+    "code": "A017",
+    "description": "A017 - SET - SOCIETE DES EAUX DE TOULON",
+    "libelle": "SET",
+    "extension": "YP"
+  },
+  {
+    "numreg": "09",
+    "code": "A020",
+    "description": "A020 - SEEG",
+    "libelle": "SEEG",
+    "extension": "YR"
+  },
+  {
+    "numreg": 29,
+    "code": "A020",
+    "description": "A020 - SEEG",
+    "libelle": "SEEG",
+    "extension": "YR"
+  },
+  {
+    "numreg": 65,
+    "code": "A020",
+    "description": "A020 - SEEG",
+    "libelle": "SEEG",
+    "extension": "YR"
+  },
+  {
+    "numreg": "09",
+    "code": "A051",
+    "description": "A051 - SNC EQUALIA SERVICES",
+    "libelle": "",
+    "extension": "EB"
+  },
+  {
+    "numreg": 19,
+    "code": "A051",
+    "description": "A051 - SNC EQUALIA SERVICES",
+    "libelle": "",
+    "extension": "EB"
+  },
+  {
+    "numreg": 67,
+    "code": "A051",
+    "description": "A051 - SNC EQUALIA SERVICES",
+    "libelle": "",
+    "extension": "EB"
+  },
+  {
+    "numreg": "09",
+    "code": "A052",
+    "description": "A052 - REGIONGAZ",
+    "libelle": "",
+    "extension": "HC"
+  },
+  {
+    "numreg": 39,
+    "code": "A052",
+    "description": "A052 - REGIONGAZ",
+    "libelle": "",
+    "extension": "HC"
+  },
+  {
+    "numreg": 62,
+    "code": "A052",
+    "description": "A052 - REGIONGAZ",
+    "libelle": "",
+    "extension": "HC"
+  },
+  {
+    "numreg": "09",
+    "code": "A053",
+    "description": "A053 - CLIG 12 - COMPAGNIE LOCAL D'INVESTISSEMENT ET DE GESTION 12",
+    "libelle": "",
+    "extension": "CL"
+  },
+  {
+    "numreg": 19,
+    "code": "A053",
+    "description": "A053 - CLIG 12 - COMPAGNIE LOCAL D'INVESTISSEMENT ET DE GESTION 12",
+    "libelle": "",
+    "extension": "CL"
+  },
+  {
+    "numreg": 67,
+    "code": "A053",
+    "description": "A053 - CLIG 12 - COMPAGNIE LOCAL D'INVESTISSEMENT ET DE GESTION 12",
+    "libelle": "",
+    "extension": "CL"
+  },
+  {
+    "numreg": "09",
+    "code": "A056",
+    "description": "A056 - SOCIETE DES EAUX DE CORSE",
+    "libelle": "",
+    "extension": "YS"
+  },
+  {
+    "numreg": 49,
+    "code": "A056",
+    "description": "A056 - SOCIETE DES EAUX DE CORSE",
+    "libelle": "",
+    "extension": "YS"
+  },
+  {
+    "numreg": 69,
+    "code": "A056",
+    "description": "A056 - SOCIETE DES EAUX DE CORSE",
+    "libelle": "",
+    "extension": "YS"
+  },
+  {
+    "numreg": 79,
+    "code": "A065",
+    "description": "A065 - GRAND PRADO 360D",
+    "libelle": "",
+    "extension": "LA"
+  },
+  {
+    "numreg": "09",
+    "code": "A069",
+    "description": "A069 - ROYAN EAU ET ENVIRONNEMENT",
+    "libelle": "",
+    "extension": "YT"
+  },
+  {
+    "numreg": 29,
+    "code": "A069",
+    "description": "A069 - ROYAN EAU ET ENVIRONNEMENT",
+    "libelle": "",
+    "extension": "YT"
+  },
+  {
+    "numreg": 64,
+    "code": "A069",
+    "description": "A069 - ROYAN EAU ET ENVIRONNEMENT",
+    "libelle": "",
+    "extension": "YT"
+  },
+  {
+    "numreg": "09",
+    "code": "A074",
+    "description": "A074 - VALYO",
+    "libelle": "",
+    "extension": "ED"
+  },
+  {
+    "numreg": 19,
+    "code": "A074",
+    "description": "A074 - VALYO",
+    "libelle": "",
+    "extension": "ED"
+  },
+  {
+    "numreg": 67,
+    "code": "A074",
+    "description": "A074 - VALYO",
+    "libelle": "",
+    "extension": "ED"
+  },
+  {
+    "numreg": 48,
+    "code": "A075",
+    "description": "A075 - NOVA VEOLIA",
+    "libelle": "",
+    "extension": "NV"
+  },
+  {
+    "numreg": 48,
+    "code": "A077",
+    "description": "A077 - PAYBOOST",
+    "libelle": "PBST",
+    "extension": "PB"
+  },
+  {
+    "numreg": 19,
+    "code": "A078",
+    "description": "A078 - VEOLIA EAU D'ILE DE France SNC",
+    "libelle": "",
+    "extension": ""
+  },
+  {
+    "numreg": "09",
+    "code": "A081",
+    "description": "A081 - ETS MICHEL WEILL",
+    "libelle": "",
+    "extension": "IB"
+  },
+  {
+    "numreg": 29,
+    "code": "A081",
+    "description": "A081 - ETS MICHEL WEILL",
+    "libelle": "",
+    "extension": "IB"
+  },
+  {
+    "numreg": 64,
+    "code": "A081",
+    "description": "A081 - ETS MICHEL WEILL",
+    "libelle": "",
+    "extension": "IB"
+  },
+  {
+    "numreg": "09",
+    "code": "A085",
+    "description": "A085 - SAGEBA",
+    "libelle": "",
+    "extension": "IC"
+  },
+  {
+    "numreg": 29,
+    "code": "A085",
+    "description": "A085 - SAGEBA",
+    "libelle": "",
+    "extension": "IC"
+  },
+  {
+    "numreg": 64,
+    "code": "A085",
+    "description": "A085 - SAGEBA",
+    "libelle": "",
+    "extension": "IC"
+  },
+  {
+    "numreg": "09",
+    "code": "A087",
+    "description": "A087 - SEB - SOCIETE DES EAUX DU BOULONNAIS",
+    "libelle": "SEB",
+    "extension": "YU"
+  },
+  {
+    "numreg": 19,
+    "code": "A087",
+    "description": "A087 - SEB - SOCIETE DES EAUX DU BOULONNAIS",
+    "libelle": "SEB",
+    "extension": "YU"
+  },
+  {
+    "numreg": 66,
+    "code": "A087",
+    "description": "A087 - SEB - SOCIETE DES EAUX DU BOULONNAIS",
+    "libelle": "SEB",
+    "extension": "YU"
+  },
+  {
+    "numreg": "09",
+    "code": "A091",
+    "description": "A091 - SOCIETE EAU DU GRAND LYON",
+    "libelle": "",
+    "extension": "EL"
+  },
+  {
+    "numreg": 39,
+    "code": "A091",
+    "description": "A091 - SOCIETE EAU DU GRAND LYON",
+    "libelle": "",
+    "extension": "EL"
+  },
+  {
+    "numreg": 63,
+    "code": "A091",
+    "description": "A091 - SOCIETE EAU DU GRAND LYON",
+    "libelle": "",
+    "extension": "EL"
+  },
+  {
+    "numreg": 48,
+    "code": "A098",
+    "description": "A098 - ABYLON",
+    "libelle": "",
+    "extension": "AY"
+  },
+  {
+    "numreg": 48,
+    "code": "A099",
+    "description": "A099 - HOMEFRIEND",
+    "libelle": "",
+    "extension": "HO"
+  },
+  {
+    "numreg": 19,
+    "code": "A101",
+    "description": "A101 - SOCIETE DES EAUX DU GRAND ARRAS",
+    "libelle": "SEGA",
+    "extension": "EA"
+  },
+  {
+    "numreg": 66,
+    "code": "A101",
+    "description": "A101 - SOCIETE DES EAUX DU GRAND ARRAS",
+    "libelle": "SEGA",
+    "extension": "EA"
+  },
+  {
+    "numreg": 62,
+    "code": "A102",
+    "description": "A102 - STEP MAXEVILLE",
+    "libelle": "MAXEVI",
+    "extension": "MX"
+  },
+  {
+    "numreg": 29,
+    "code": "A103",
+    "description": "A103 - SOCIETE D'EXPLOITATION D'EAU DU BASSIN D'ARCACHON SUD",
+    "libelle": "SEEBAS",
+    "extension": "BA"
+  },
+  {
+    "numreg": 64,
+    "code": "A103",
+    "description": "A103 - SOCIETE D'EXPLOITATION D'EAU DU BASSIN D'ARCACHON SUD",
+    "libelle": "SEEBAS",
+    "extension": "BA"
+  },
+  {
+    "numreg": 19,
+    "code": "A104",
+    "description": "A104 - SEINE OUEST ASSAINISSEMENT",
+    "libelle": "SOA",
+    "extension": "OA"
+  },
+  {
+    "numreg": 67,
+    "code": "A104",
+    "description": "A104 - SEINE OUEST ASSAINISSEMENT",
+    "libelle": "SOA",
+    "extension": "OA"
+  },
+  {
+    "numreg": 64,
+    "code": "A106",
+    "description": "A106 - SME EAU - CLIG 39",
+    "libelle": "SWE",
+    "extension": "WE"
+  },
+  {
+    "numreg": 29,
+    "code": "A108",
+    "description": "A108 - SOCIETE D'EXPLOITATION DES EAUX VEOLIA VENDEE",
+    "libelle": "VENDEO",
+    "extension": "VD"
+  },
+  {
+    "numreg": 65,
+    "code": "A108",
+    "description": "A108 - SOCIETE D'EXPLOITATION DES EAUX VEOLIA VENDEE",
+    "libelle": "VENDEO",
+    "extension": "VD"
+  },
+  {
+    "numreg": 79,
+    "code": "A110",
+    "description": "A110 - RUNEO",
+    "libelle": "REU",
+    "extension": "RE"
+  },
+  {
+    "numreg": 19,
+    "code": "A114",
+    "description": "A114 - SOCIETE D'EXPLOITATION DES EAUX DE SEINE EURE NORMANDIE",
+    "libelle": "SEESEN",
+    "extension": "SE"
+  },
+  {
+    "numreg": 68,
+    "code": "A114",
+    "description": "A114 - SOCIETE D'EXPLOITATION DES EAUX DE SEINE EURE NORMANDIE",
+    "libelle": "SEESEN",
+    "extension": "SE"
+  },
+  {
+    "numreg": 39,
+    "code": "A115",
+    "description": "A115 - MACONNAISE DES EAUX",
+    "libelle": "MACON",
+    "extension": "MA"
+  },
+  {
+    "numreg": 63,
+    "code": "A115",
+    "description": "A115 - MACONNAISE DES EAUX",
+    "libelle": "MACON",
+    "extension": "MA"
+  },
+  {
+    "numreg": 63,
+    "code": "A116",
+    "description": "A116 - CLIG 49",
+    "libelle": "CME",
+    "extension": "CM"
+  },
+  {
+    "numreg": 70,
+    "code": "A117",
+    "description": "A117 - CLIG 50",
+    "libelle": "JHH",
+    "extension": "JH"
+  },
+  {
+    "numreg": 62,
+    "code": "A118",
+    "description": "A118 - EAU ARDRE ET VELSE",
+    "libelle": "AEAV",
+    "extension": "AV"
+  },
+  {
+    "numreg": 69,
+    "code": "A121",
+    "description": "A121 - COMPAGNIE DES EAUX ET DE L'OZONE CORSE",
+    "libelle": "",
+    "extension": ""
+  },
+  {
+    "numreg": 66,
+    "code": "A122",
+    "description": "A122 - CALLEA",
+    "libelle": "CALLEA",
+    "extension": "LL"
+  },
+  {
+    "numreg": 65,
+    "code": "A125",
+    "description": "A125 - BAIE D'ARMOR EAUX",
+    "libelle": "BAEAEP",
+    "extension": "AE"
+  },
+  {
+    "numreg": 65,
+    "code": "A127",
+    "description": "A127 - DINAN ASSAINISSEMENT",
+    "libelle": "FASST",
+    "extension": "FA"
+  },
+  {
+    "numreg": 64,
+    "code": "A128",
+    "description": "A128 - SB2A",
+    "libelle": "SB",
+    "extension": "SB"
+  },
+  {
+    "numreg": 64,
+    "code": "A129",
+    "description": "A129 - SABOM",
+    "libelle": "BOR",
+    "extension": "BO"
+  },
+  {
+    "numreg": 69,
+    "code": "A130",
+    "description": "A130 - SOCIETE AVIGNONAISE DE L'ASSAINISSEMENT",
+    "libelle": "SAA",
+    "extension": "AA"
+  },
+  {
+    "numreg": 19,
+    "code": "A132",
+    "description": "A132 - SOCIETE AVIGNONAISE DU BOULONNAIS",
+    "libelle": "SAB",
+    "extension": "AB"
+  },
+  {
+    "numreg": 66,
+    "code": "A132",
+    "description": "A132 - SOCIETE AVIGNONAISE DU BOULONNAIS",
+    "libelle": "SAB",
+    "extension": "AB"
+  },
+  {
+    "numreg": 68,
+    "code": "A137",
+    "description": "A137 - SOCIETES DES EAUX POTABLES DU GRANVILLOIS ET DE L'AVRANCHIN",
+    "libelle": "SEPGA",
+    "extension": "EG"
+  },
+  {
+    "numreg": 79,
+    "code": "A138",
+    "description": "A138 - EAUX DE LA POSSESSION",
+    "libelle": "EDP",
+    "extension": "EP"
+  },
+  {
+    "numreg": 65,
+    "code": "A140",
+    "description": "A140 - EAUX DE DINAN EAU POTABLE",
+    "libelle": "EDEP",
+    "extension": "EP"
+  },
+  {
+    "numreg": 48,
+    "code": "A800",
+    "description": "A800 - MAJIKAN",
+    "libelle": "",
+    "extension": "MJ"
+  },
+  {
+    "numreg": "09",
+    "code": "J202",
+    "description": "J202 - THEBA",
+    "libelle": "THEBA",
+    "extension": "ST"
+  },
+  {
+    "numreg": 39,
+    "code": "J202",
+    "description": "J202 - THEBA",
+    "libelle": "THEBA",
+    "extension": "ST"
+  },
+  {
+    "numreg": 62,
+    "code": "J202",
+    "description": "J202 - THEBA",
+    "libelle": "THEBA",
+    "extension": "ST"
+  },
+  {
+    "numreg": "09",
+    "code": "J208",
+    "description": "J208 - TEC - TECHNIQUE D'EXPLOITATION ET DE COMPTAGE",
+    "libelle": "TEC",
+    "extension": "ZM"
+  },
+  {
+    "numreg": 49,
+    "code": "J208",
+    "description": "J208 - TEC - TECHNIQUE D'EXPLOITATION ET DE COMPTAGE",
+    "libelle": "TEC",
+    "extension": "ZM"
+  },
+  {
+    "numreg": 69,
+    "code": "J208",
+    "description": "J208 - TEC - TECHNIQUE D'EXPLOITATION ET DE COMPTAGE",
+    "libelle": "TEC",
+    "extension": "ZM"
+  },
+  {
+    "numreg": "09",
+    "code": "K004",
+    "description": "K004 - SABATP",
+    "libelle": "SABATP",
+    "extension": "ZS"
+  },
+  {
+    "numreg": 29,
+    "code": "K004",
+    "description": "K004 - SABATP",
+    "libelle": "SABATP",
+    "extension": "ZS"
+  },
+  {
+    "numreg": 65,
+    "code": "K004",
+    "description": "K004 - SABATP",
+    "libelle": "SABATP",
+    "extension": "ZS"
+  },
+  {
+    "numreg": 29,
+    "code": "K038",
+    "description": "K038 - ENTREPRISE ROGER MARTEAU",
+    "libelle": "ERM",
+    "extension": "RM"
+  },
+  {
+    "numreg": 65,
+    "code": "K038",
+    "description": "K038 - ENTREPRISE ROGER MARTEAU",
+    "libelle": "ERM",
+    "extension": "RM"
+  },
+  {
+    "numreg": "09",
+    "code": "R156",
+    "description": "R156 - OTV EXPLOITATIONS",
+    "libelle": "OTVE",
+    "extension": "OV"
+  },
+  {
+    "numreg": 19,
+    "code": "R156",
+    "description": "R156 - OTV EXPLOITATIONS",
+    "libelle": "OTVE",
+    "extension": "OV"
+  },
+  {
+    "numreg": 29,
+    "code": "R156",
+    "description": "R156 - OTV EXPLOITATIONS",
+    "libelle": "OTVE",
+    "extension": "OV"
+  },
+  {
+    "numreg": 39,
+    "code": "R156",
+    "description": "R156 - OTV EXPLOITATIONS",
+    "libelle": "OTVE",
+    "extension": "OV"
+  },
+  {
+    "numreg": 49,
+    "code": "R156",
+    "description": "R156 - OTV EXPLOITATIONS",
+    "libelle": "OTVE",
+    "extension": "OV"
+  },
+  {
+    "numreg": 60,
+    "code": "R156",
+    "description": "R156 - OTV EXPLOITATIONS",
+    "libelle": "OTVE",
+    "extension": "OV"
+  },
+  {
+    "numreg": 62,
+    "code": "R156",
+    "description": "R156 - OTV EXPLOITATIONS",
+    "libelle": "OTVE",
+    "extension": "OV"
+  },
+  {
+    "numreg": 63,
+    "code": "R156",
+    "description": "R156 - OTV EXPLOITATIONS",
+    "libelle": "OTVE",
+    "extension": "OV"
+  },
+  {
+    "numreg": 65,
+    "code": "R156",
+    "description": "R156 - OTV EXPLOITATIONS",
+    "libelle": "OTVE",
+    "extension": "OV"
+  },
+  {
+    "numreg": 66,
+    "code": "R156",
+    "description": "R156 - OTV EXPLOITATIONS",
+    "libelle": "OTVE",
+    "extension": "OV"
+  },
+  {
+    "numreg": 67,
+    "code": "R156",
+    "description": "R156 - OTV EXPLOITATIONS",
+    "libelle": "OTVE",
+    "extension": "OV"
+  },
+  {
+    "numreg": 68,
+    "code": "R156",
+    "description": "R156 - OTV EXPLOITATIONS",
+    "libelle": "OTVE",
+    "extension": "OV"
+  },
+  {
+    "numreg": 69,
+    "code": "R156",
+    "description": "R156 - OTV EXPLOITATIONS",
+    "libelle": "OTVE",
+    "extension": "OV"
+  },
+  {
+    "numreg": "09",
+    "code": "S037",
+    "description": "S037 - FLAINE ENERGIE",
+    "libelle": "",
+    "extension": ""
+  },
+  {
+    "numreg": 39,
+    "code": "S037",
+    "description": "S037 - FLAINE ENERGIE",
+    "libelle": "",
+    "extension": ""
+  },
+  {
+    "numreg": 63,
+    "code": "S037",
+    "description": "S037 - FLAINE ENERGIE",
+    "libelle": "",
+    "extension": ""
+  },
+  {
+    "numreg": "09",
+    "code": "S039",
+    "description": "S039 - ASSAINISSEMENT DE LA PRESQU'ILE DE GUERANDE",
+    "libelle": "APG",
+    "extension": "PG"
+  },
+  {
+    "numreg": 29,
+    "code": "S039",
+    "description": "S039 - ASSAINISSEMENT DE LA PRESQU'ILE DE GUERANDE",
+    "libelle": "APG",
+    "extension": "PG"
+  },
+  {
+    "numreg": 65,
+    "code": "S039",
+    "description": "S039 - ASSAINISSEMENT DE LA PRESQU'ILE DE GUERANDE",
+    "libelle": "APG",
+    "extension": "PG"
+  },
+  {
+    "numreg": "09",
+    "code": "S040",
+    "description": "S040 - EAU DE LA METROPOLE EUROPEENNE DE LILLE",
+    "libelle": "",
+    "extension": ""
+  },
+  {
+    "numreg": 19,
+    "code": "S040",
+    "description": "S040 - EAU DE LA METROPOLE EUROPEENNE DE LILLE",
+    "libelle": "",
+    "extension": ""
+  },
+  {
+    "numreg": 66,
+    "code": "S040",
+    "description": "S040 - EAU DE LA METROPOLE EUROPEENNE DE LILLE",
+    "libelle": "",
+    "extension": ""
+  },
+  {
+    "numreg": 69,
+    "code": "S041",
+    "description": "S041 - KYRNOLIA",
+    "libelle": "",
+    "extension": ""
+  },
+  {
+    "numreg": "09",
+    "code": "T714",
+    "description": "T714 - SEAT - STE EAUX AGGLOMERATION TROYES",
+    "libelle": "SEAT",
+    "extension": "ZR"
+  },
+  {
+    "numreg": 39,
+    "code": "T714",
+    "description": "T714 - SEAT - STE EAUX AGGLOMERATION TROYES",
+    "libelle": "SEAT",
+    "extension": "ZR"
+  },
+  {
+    "numreg": 62,
+    "code": "T714",
+    "description": "T714 - SEAT - STE EAUX AGGLOMERATION TROYES",
+    "libelle": "SEAT",
+    "extension": "ZR"
+  },
+  {
+    "numreg": "09",
+    "code": "X090",
+    "description": "X090 - SADE EXPLOITATION EST",
+    "libelle": "",
+    "extension": "WH"
+  },
+  {
+    "numreg": 39,
+    "code": "X090",
+    "description": "X090 - SADE EXPLOITATION EST",
+    "libelle": "",
+    "extension": "WH"
+  },
+  {
+    "numreg": 62,
+    "code": "X090",
+    "description": "X090 - SADE EXPLOITATION EST",
+    "libelle": "",
+    "extension": "WH"
+  },
+  {
+    "numreg": "09",
+    "code": "X095",
+    "description": "X095 - SADE EXPLOITATIONS DU NORD DE LA France",
+    "libelle": "",
+    "extension": "WG"
+  },
+  {
+    "numreg": 19,
+    "code": "X095",
+    "description": "X095 - SADE EXPLOITATIONS DU NORD DE LA France",
+    "libelle": "",
+    "extension": "WG"
+  },
+  {
+    "numreg": 66,
+    "code": "X095",
+    "description": "X095 - SADE EXPLOITATIONS DU NORD DE LA France",
+    "libelle": "",
+    "extension": "WG"
+  },
+  {
+    "numreg": "09",
+    "code": "X097",
+    "description": "X097 - GIE VEOLIA EAU France",
+    "libelle": "",
+    "extension": "GV"
+  },
+  {
+    "numreg": 19,
+    "code": "X097",
+    "description": "X097 - GIE VEOLIA EAU France",
+    "libelle": "",
+    "extension": "GV"
+  },
+  {
+    "numreg": 29,
+    "code": "X097",
+    "description": "X097 - GIE VEOLIA EAU France",
+    "libelle": "",
+    "extension": "GV"
+  },
+  {
+    "numreg": 39,
+    "code": "X097",
+    "description": "X097 - GIE VEOLIA EAU France",
+    "libelle": "",
+    "extension": "GV"
+  },
+  {
+    "numreg": 49,
+    "code": "X097",
+    "description": "X097 - GIE VEOLIA EAU France",
+    "libelle": "",
+    "extension": "GV"
+  },
+  {
+    "numreg": 60,
+    "code": "X097",
+    "description": "X097 - GIE VEOLIA EAU France",
+    "libelle": "",
+    "extension": "GV"
+  },
+  {
+    "numreg": 62,
+    "code": "X097",
+    "description": "X097 - GIE VEOLIA EAU France",
+    "libelle": "",
+    "extension": "GV"
+  },
+  {
+    "numreg": 63,
+    "code": "X097",
+    "description": "X097 - GIE VEOLIA EAU France",
+    "libelle": "",
+    "extension": "GV"
+  },
+  {
+    "numreg": 64,
+    "code": "X097",
+    "description": "X097 - GIE VEOLIA EAU France",
+    "libelle": "",
+    "extension": "GV"
+  },
+  {
+    "numreg": 65,
+    "code": "X097",
+    "description": "X097 - GIE VEOLIA EAU France",
+    "libelle": "",
+    "extension": "GV"
+  },
+  {
+    "numreg": 66,
+    "code": "X097",
+    "description": "X097 - GIE VEOLIA EAU France",
+    "libelle": "",
+    "extension": "GV"
+  },
+  {
+    "numreg": 67,
+    "code": "X097",
+    "description": "X097 - GIE VEOLIA EAU France",
+    "libelle": "",
+    "extension": "GV"
+  },
+  {
+    "numreg": 68,
+    "code": "X097",
+    "description": "X097 - GIE VEOLIA EAU France",
+    "libelle": "",
+    "extension": "GV"
+  },
+  {
+    "numreg": 69,
+    "code": "X097",
+    "description": "X097 - GIE VEOLIA EAU France",
+    "libelle": "",
+    "extension": "GV"
+  },
+  {
+    "numreg": 70,
+    "code": "X097",
+    "description": "X097 - GIE VEOLIA EAU France",
+    "libelle": "",
+    "extension": "GV"
+  },
+  {
+    "numreg": "09",
+    "code": "X110",
+    "description": "X110 - SADE EXPLOITATIONS DE NORMANDIE",
+    "libelle": "",
+    "extension": "WF"
+  },
+  {
+    "numreg": 19,
+    "code": "X110",
+    "description": "X110 - SADE EXPLOITATIONS DE NORMANDIE",
+    "libelle": "",
+    "extension": "WF"
+  },
+  {
+    "numreg": 68,
+    "code": "X110",
+    "description": "X110 - SADE EXPLOITATIONS DE NORMANDIE",
+    "libelle": "",
+    "extension": "WF"
+  },
+  {
+    "numreg": "09",
+    "code": "X115",
+    "description": "X115 - SADE EXPLOITATION SUD MEDITERRANNEE",
+    "libelle": "",
+    "extension": "WJ"
+  },
+  {
+    "numreg": 49,
+    "code": "X115",
+    "description": "X115 - SADE EXPLOITATION SUD MEDITERRANNEE",
+    "libelle": "",
+    "extension": "WJ"
+  },
+  {
+    "numreg": 70,
+    "code": "X115",
+    "description": "X115 - SADE EXPLOITATION SUD MEDITERRANNEE",
+    "libelle": "",
+    "extension": "WJ"
+  },
+  {
+    "numreg": "09",
+    "code": "X120",
+    "description": "X120 - SADE EXPLOITATION MEDITERRANNEE",
+    "libelle": "",
+    "extension": "W0"
+  },
+  {
+    "numreg": 49,
+    "code": "X120",
+    "description": "X120 - SADE EXPLOITATION MEDITERRANNEE",
+    "libelle": "",
+    "extension": "W0"
+  },
+  {
+    "numreg": 69,
+    "code": "X120",
+    "description": "X120 - SADE EXPLOITATION MEDITERRANNEE",
+    "libelle": "",
+    "extension": "W0"
+  },
+  {
+    "numreg": "09",
+    "code": "X125",
+    "description": "X125 - SADE EXPLOIT. SUD OUEST",
+    "libelle": "",
+    "extension": "WI"
+  },
+  {
+    "numreg": 29,
+    "code": "X125",
+    "description": "X125 - SADE EXPLOIT. SUD OUEST",
+    "libelle": "",
+    "extension": "WI"
+  },
+  {
+    "numreg": 64,
+    "code": "X125",
+    "description": "X125 - SADE EXPLOIT. SUD OUEST",
+    "libelle": "",
+    "extension": "WI"
+  },
+  {
+    "numreg": "09",
+    "code": "X148",
+    "description": "X148 - RUAS (ENTREPRISE MICHEL)",
+    "libelle": "RUAS",
+    "extension": "RU"
+  },
+  {
+    "numreg": 19,
+    "code": "X148",
+    "description": "X148 - RUAS (ENTREPRISE MICHEL)",
+    "libelle": "RUAS",
+    "extension": "RU"
+  },
+  {
+    "numreg": 39,
+    "code": "X148",
+    "description": "X148 - RUAS (ENTREPRISE MICHEL)",
+    "libelle": "RUAS",
+    "extension": "RU"
+  },
+  {
+    "numreg": 49,
+    "code": "X148",
+    "description": "X148 - RUAS (ENTREPRISE MICHEL)",
+    "libelle": "RUAS",
+    "extension": "RU"
+  },
+  {
+    "numreg": 60,
+    "code": "X148",
+    "description": "X148 - RUAS (ENTREPRISE MICHEL)",
+    "libelle": "RUAS",
+    "extension": "RU"
+  },
+  {
+    "numreg": 62,
+    "code": "X148",
+    "description": "X148 - RUAS (ENTREPRISE MICHEL)",
+    "libelle": "RUAS",
+    "extension": "RU"
+  },
+  {
+    "numreg": 67,
+    "code": "X148",
+    "description": "X148 - RUAS (ENTREPRISE MICHEL)",
+    "libelle": "RUAS",
+    "extension": "RU"
+  },
+  {
+    "numreg": 70,
+    "code": "X148",
+    "description": "X148 - RUAS (ENTREPRISE MICHEL)",
+    "libelle": "RUAS",
+    "extension": "RU"
+  },
+  {
+    "numreg": "09",
+    "code": "X154",
+    "description": "X154 - EPUR - EPURATION POMPAGE URBAIN ET RURAL",
+    "libelle": "EPUR",
+    "extension": "JC"
+  },
+  {
+    "numreg": 49,
+    "code": "X154",
+    "description": "X154 - EPUR - EPURATION POMPAGE URBAIN ET RURAL",
+    "libelle": "EPUR",
+    "extension": "JC"
+  },
+  {
+    "numreg": 70,
+    "code": "X154",
+    "description": "X154 - EPUR - EPURATION POMPAGE URBAIN ET RURAL",
+    "libelle": "EPUR",
+    "extension": "JC"
+  }
+]

@@ -1,0 +1,57 @@
+[
+  {
+    "service": "AMOA / SUPPORT",
+    "key": "amoa",
+    "responsable": "jerome.noel@veolia.com"
+  },
+  {
+    "service": "Comptabilité Générale",
+    "key": "generale",
+    "responsable": "christophe.abou-rjeily@veolia.com"
+  },
+  {
+    "service": "Comptabilité Bancaire",
+    "key": "bancaire",
+    "responsable": "william.ferriere@veolia.com"
+  },
+  {
+    "service": "Comptabilité Auxiliaire",
+    "key": "auxiliaire",
+    "responsable": "william.ferriere@veolia.com"
+  },
+  {
+    "service": "Comptabilité Fournisseur",
+    "key": "fournisseur",
+    "responsable": "william.ferriere@veolia.com"
+  },
+  {
+    "service": "Fiscalité et patrimoine",
+    "key": "fiscalite",
+    "responsable": "stephane.riou@veolia.com"
+  },
+  {
+    "service": "Comptabilité immobilisation",
+    "key": "immobilisation",
+    "responsable": "christophe.abou-rjeily@veolia.com"
+},
+  {
+    "service": "Comptabilité redevance de prélèvement",
+    "key": "redevance",
+    "responsable": "stephane.riou@veolia.com"
+  },
+  {
+    "service": "Comptabilité reversement",
+    "key": "reversement",
+    "responsable": "stephane.riou@veolia.com"
+  },
+  {
+    "service": "Direction",
+    "key": "direction",
+    "responsable": "frederic.adele@veolia.com"
+  },
+  {
+    "service": "RPA",
+    "key": "rpa",
+    "responsable": "jerome.noel@veolia.com"
+  }
+]

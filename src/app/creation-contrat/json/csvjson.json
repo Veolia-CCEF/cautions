@@ -1,0 +1,218 @@
+[
+  {
+    "processus": "Cadrage Immobilisation",
+    "description": "Ce processus a pour but de générer les fichiers trimestriels de cadrage des immobilisations pour les sociétés VEF sur SAP",
+    "frequency": "Trimestriel",
+    "onDemand": "N",
+    "users": "RPA",
+    "pdd": "",
+    "path": "/404"
+  },
+  {
+    "processus": "Balance SAP",
+    "description": "Ce processus a pour but de mettre à jour la balance comptable SAP dans le rapport Data Studio de destination",
+    "frequency": "Quotidienne",
+    "onDemand": "N",
+    "users": "RPA",
+    "pdd": "",
+    "path":  "/404"
+  },
+  {
+    "processus": "Intégration de pivots",
+    "description": "Ce processus a pour but d'intégrer des pivots à SAP",
+    "frequency": "Ponctuelle",
+    "onDemand": "O",
+    "users": "All CCEF",
+    "pdd": "",
+    "path":  "/integration_pivot"
+  },
+  {
+    "processus": "Export Ca-earl",
+    "description": "Ce processus a pour but de mettre à jour le rapport Data Studio de synthèse des Ca-earl pour tout les environnements GN",
+    "frequency": "Mensuelle",
+    "onDemand": "O",
+    "users": "Codir",
+    "pdd": "",
+    "path":  "/caearl_export"
+  },
+  {
+    "processus": "Indicateur Auxiliaires",
+    "description": "Ce processus a pour but de générer et mettre à disposition sur Google Drive le fichier d'indicateur du service auxiliaire",
+    "frequency": "Quotidienne",
+    "onDemand": "N",
+    "users": "RPA",
+    "pdd": "",
+    "path":  "/404"
+  },
+  {
+    "processus": "États ERB",
+    "description": "Ce processus a pour but de générer et mettre à disposition sur google Drive l'ensemble des états de rapprochement bancaire du mois précédent",
+    "frequency": "Mensuelle",
+    "onDemand": "N",
+    "users": "RPA",
+    "pdd": "",
+    "path":  "/404"
+  },
+  {
+    "processus": "Création maquette",
+    "description": "Ce processus a pour but de générer et mettre à disposition en masse sur google Drive des copies de fichiers maquette",
+    "frequency": "Ponctuelle",
+    "onDemand": "O",
+    "users": "RPA",
+    "pdd": "",
+    "path":  "/create_model"
+  },
+  {
+    "processus": "Traitement FEBA",
+    "description": "Ce processus a pour but de générer le traitement des flux redescendus dans la transaction SAP FEBA",
+    "frequency": "Quotidienne",
+    "onDemand": "N",
+    "users": "RPA",
+    "pdd": "",
+    "path":  "/404"
+  },
+  {
+    "processus": "Indicateur Bancaire",
+    "description": "Ce processus a pour but de mettre à jour le rapport Data Studio des indicateurs bancaires",
+    "frequency": "Quotidienne",
+    "onDemand": "N",
+    "users": "RPA",
+    "pdd": "",
+    "path":  "/404"
+  },
+  {
+    "processus": "Cadrage provisions RH",
+    "description": "Ce processus a pour but de générer et mettre à disposition sur google Drive l'ensemble des cadrages de provision RH du mois précédent",
+    "frequency": "Mensuelle",
+    "onDemand": "N",
+    "users": "RPA",
+    "pdd": "",
+    "path":  "/404"
+  },
+  {
+    "processus": "Dossier de révision",
+    "description": "Ce processus a pour but de générer et mettre à disposition sur google Drive l'ensemble des fiches PNS et soldes pour l'établissement des dossiers de révision comptable",
+    "frequency": "Annuelle",
+    "onDemand": "N",
+    "users": "RPA",
+    "pdd": "",
+    "path":  "/404"
+  },
+  {
+    "processus": "Inventaire Immobilisation",
+    "description": "Ce processus a pour but de",
+    "frequency": "Trimestriel",
+    "onDemand": "N",
+    "users": "RPA",
+    "pdd": "",
+    "path":  "/404"
+  },
+  {
+    "processus": "Création fiche immobilisation",
+    "description": "Ce processus a pour but de créer les fiches immobilisations sur SAP",
+    "frequency": "Ponctuelle",
+    "onDemand": "O",
+    "users": "Service Immobilisation",
+    "pdd": "",
+    "path":  "/create_immobilisation"
+  },
+  {
+    "processus": "Création de contrat",
+    "description": "Ce processus a pour but de",
+    "frequency": "Ponctuelle",
+    "onDemand": "O",
+    "users": "AMOA",
+    "pdd": "",
+    "path":  "/create_contract"
+  },
+  {
+    "processus": "Création ordre interne",
+    "description": "Ce processus a pour but de",
+    "frequency": "Ponctuelle",
+    "onDemand": "O",
+    "users": "AMOA",
+    "pdd": "",
+    "path":  "/create_intern_order"
+  },
+  {
+    "processus": "Contrôle OD",
+    "description": "Ce processus a pour but de",
+    "frequency": "Quotidienne",
+    "onDemand": "N",
+    "users": "RPA",
+    "pdd": "",
+    "path":  "/404"
+  },
+  {
+    "processus": "Export Avis CFE",
+    "description": "Ce processus a pour but de",
+    "frequency": "Annuelle",
+    "onDemand": "N",
+    "users": "RPA",
+    "pdd": "",
+    "path":  "/404"
+  },
+  {
+    "processus": "Export Taxe Foncière",
+    "description": "Ce processus a pour but de",
+    "frequency": "Annuelle",
+    "onDemand": "N",
+    "users": "RPA",
+    "pdd": "",
+    "path":  "/404"
+  },
+  {
+    "processus": "Extraction données CFE",
+    "description": "Ce processus a pour but de",
+    "frequency": "Annuelle",
+    "onDemand": "N",
+    "users": "RPA",
+    "pdd": "",
+    "path":  "/404"
+  },
+  {
+    "processus": "Modification données collaborateur (PA30)",
+    "description": "Ce processus a pour but de",
+    "frequency": "Ponctuelle",
+    "onDemand": "O",
+    "users": "AMOA",
+    "pdd": "",
+    "path":  "/pa30modification"
+  },
+  {
+    "processus": "Export pièces comptables",
+    "description": "Ce processus a pour but de",
+    "frequency": "Quotidienne",
+    "onDemand": "N",
+    "users": "All CCEF",
+    "pdd": "",
+    "path":  "/404"
+  },
+  {
+    "processus": "Export états Next",
+    "description": "Ce processus a pour but de",
+    "frequency": "Quotidienne",
+    "onDemand": "N",
+    "users": "RPA",
+    "pdd": "",
+    "path":  "/404"
+  },
+  {
+    "processus": "Export état Pharos",
+    "description": "Ce processus a pour but de",
+    "frequency": "Mensuelle",
+    "onDemand": "N",
+    "users": "RPA",
+    "pdd": "",
+    "path":  "/404"
+  },
+  {
+    "processus": "Insertion Pièce jointe SAP",
+    "description": "Ce processus a pour but de",
+    "frequency": "Quotidienne",
+    "onDemand": "N",
+    "users": "All CCEF",
+    "pdd": "",
+    "path":  "/404"
+  }
+]

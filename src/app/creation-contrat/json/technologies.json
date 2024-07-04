@@ -1,0 +1,32 @@
+[
+  {
+    "techno": "AFFERMAGE",
+    "technoType": "DSP",
+    "technologie": "AFFERMAGE"
+  },
+  {
+    "techno": "AUTRE",
+    "technoType": "DIV",
+    "technologie": "AUTRE"
+  },
+  {
+    "techno": "CONCESSION",
+    "technoType": "DSP",
+    "technologie": "CONCESSION"
+  },
+  {
+    "techno": "HDSP AUTRES",
+    "technoType": "HDSP",
+    "technologie": "PRESTATIONS DE SERVICE"
+  },
+  {
+    "techno": "HDSP COLLECTIVITES",
+    "technoType": "HDSP",
+    "technologie": "PRESTATIONS DE SERVICE"
+  },
+  {
+    "techno": "HDSP INDUSTRIELS",
+    "technoType": "HDSP",
+    "technologie": "PRESTATIONS DE SERVICE"
+  }
+]

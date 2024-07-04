@@ -1,0 +1,506 @@
+[
+  {
+    "territoires": "62 - Alsace",
+    "ter": "A",
+    "regions": "Est",
+    "numreg": 62,
+    "cp": 6762000001
+  },
+  {
+    "territoires": "62 - Ardennes",
+    "ter": "B",
+    "regions": "Est",
+    "numreg": 62,
+    "cp": 6762000001
+  },
+  {
+    "territoires": "62 - Aube - Haute Marne",
+    "ter": "C",
+    "regions": "Est",
+    "numreg": 62,
+    "cp": 6762000001
+  },
+  {
+    "territoires": "62 - Lorraine Sud",
+    "ter": "E",
+    "regions": "Est",
+    "numreg": 62,
+    "cp": 6762000001
+  },
+  {
+    "territoires": "62 - Marne",
+    "ter": "F",
+    "regions": "Est",
+    "numreg": 62,
+    "cp": 6762000001
+  },
+  {
+    "territoires": "62 - Metz Thionville",
+    "ter": "G",
+    "regions": "Est",
+    "numreg": 62,
+    "cp": 6762000001
+  },
+  {
+    "territoires": "62 - Moselle Est",
+    "ter": "H",
+    "regions": "Est",
+    "numreg": 62,
+    "cp": 6762000001
+  },
+  {
+    "territoires": "62 - Verdun - Pays Haut",
+    "ter": "I",
+    "regions": "Est",
+    "numreg": 62,
+    "cp": 6762000001
+  },
+  {
+    "territoires": "62 - Franche Comté",
+    "ter": "K",
+    "regions": "Est",
+    "numreg": 62,
+    "cp": 6762000001
+  },
+  {
+    "territoires": "63 - Bourgogne Centre",
+    "ter": "A",
+    "regions": "Centre Est",
+    "numreg": 63,
+    "cp": 6763000001
+  },
+  {
+    "territoires": "63 - Drome Ardéche",
+    "ter": "B",
+    "regions": "Centre Est",
+    "numreg": 63,
+    "cp": 6763000001
+  },
+  {
+    "territoires": "63 - EGL",
+    "ter": "C",
+    "regions": "Centre Est",
+    "numreg": 63,
+    "cp": "6763C00001"
+  },
+  {
+    "territoires": "63 - Haute Savoie Jura Ain",
+    "ter": "D",
+    "regions": "Centre Est",
+    "numreg": 63,
+    "cp": 6763000001
+  },
+  {
+    "territoires": "63 - Loire Auvergne",
+    "ter": "E",
+    "regions": "Centre Est",
+    "numreg": 63,
+    "cp": 6763000001
+  },
+  {
+    "territoires": "63 - Portes de Lyon",
+    "ter": "F",
+    "regions": "Centre Est",
+    "numreg": 63,
+    "cp": 6763000001
+  },
+  {
+    "territoires": "63 - Saone et Loire",
+    "ter": "G",
+    "regions": "Centre Est",
+    "numreg": 63,
+    "cp": 6763000001
+  },
+  {
+    "territoires": "63 - Savoie - Isére",
+    "ter": "H",
+    "regions": "Centre Est",
+    "numreg": 63,
+    "cp": 6763000001
+  },
+  {
+    "territoires": "63 - Val de Saone - Rhone",
+    "ter": "I",
+    "regions": "Centre Est",
+    "numreg": 63,
+    "cp": 6763000001
+  },
+  {
+    "territoires": "63 - Bourgogne Nord",
+    "ter": "J",
+    "regions": "Centre Est",
+    "numreg": 63,
+    "cp": 6763000001
+  },
+  {
+    "territoires": "64 - Atlantique",
+    "ter": "A",
+    "regions": "Sud Ouest",
+    "numreg": 64,
+    "cp": 6764000001
+  },
+  {
+    "territoires": "64 - Dordogne - Limousin",
+    "ter": "B",
+    "regions": "Sud Ouest",
+    "numreg": 64,
+    "cp": 6764000001
+  },
+  {
+    "territoires": "64 - Garonne et affluents",
+    "ter": "C",
+    "regions": "Sud Ouest",
+    "numreg": 64,
+    "cp": 6764000001
+  },
+  {
+    "territoires": "64 - Pyrénées Garonne",
+    "ter": "D",
+    "regions": "Sud Ouest",
+    "numreg": 64,
+    "cp": 6764000001
+  },
+  {
+    "territoires": "64 - Toulouse Métropole",
+    "ter": "E",
+    "regions": "Sud Ouest",
+    "numreg": 64,
+    "cp": 6764000001
+  },
+  {
+    "territoires": "64 - SME Weill",
+    "ter": "T",
+    "regions": "Sud Ouest",
+    "numreg": 64,
+    "cp": "6764T00001"
+  },
+  {
+    "territoires": "65 - Anjou & Deux Sèvres",
+    "ter": "A",
+    "regions": "Centre Ouest",
+    "numreg": 65,
+    "cp": 6765000001
+  },
+  {
+    "territoires": "65 - Armor Emeraude",
+    "ter": "B",
+    "regions": "Centre Ouest",
+    "numreg": 65,
+    "cp": 6765000001
+  },
+  {
+    "territoires": "65 - Beauce Sologne Berry",
+    "ter": "C",
+    "regions": "Centre Ouest",
+    "numreg": 65,
+    "cp": 6765000001
+  },
+  {
+    "territoires": "65 - Bretagne Ouest",
+    "ter": "D",
+    "regions": "Centre Ouest",
+    "numreg": 65,
+    "cp": 6765000001
+  },
+  {
+    "territoires": "65 - Ille et Vilaine Sud",
+    "ter": "E",
+    "regions": "Centre Ouest",
+    "numreg": 65,
+    "cp": 6765000001
+  },
+  {
+    "territoires": "65 - Loire Atlantique",
+    "ter": "F",
+    "regions": "Centre Ouest",
+    "numreg": 65,
+    "cp": 6765000001
+  },
+  {
+    "territoires": "65 - Sarthe & Mayenne",
+    "ter": "G",
+    "regions": "Centre Ouest",
+    "numreg": 65,
+    "cp": 6765000001
+  },
+  {
+    "territoires": "65 - Val de Loire Sologne",
+    "ter": "H",
+    "regions": "Centre Ouest",
+    "numreg": 65,
+    "cp": 6765000001
+  },
+  {
+    "territoires": "65 - Vendée",
+    "ter": "I",
+    "regions": "Centre Ouest",
+    "numreg": 65,
+    "cp": 6765000001
+  },
+  {
+    "territoires": "65 - Roger Marteau",
+    "ter": "T",
+    "regions": "Centre Ouest",
+    "numreg": 65,
+    "cp": "6765T00001"
+  },
+  {
+    "territoires": "65 - SEEG",
+    "ter": "U",
+    "regions": "Centre Ouest",
+    "numreg": 65,
+    "cp": "6765U00001"
+  },
+  {
+    "territoires": "66 - Aisne",
+    "ter": "A",
+    "regions": "Hauts de France",
+    "numreg": 66,
+    "cp": 6766000001
+  },
+  {
+    "territoires": "66 - Artois Douaisis",
+    "ter": "B",
+    "regions": "Hauts de France",
+    "numreg": 66,
+    "cp": 6766000001
+  },
+  {
+    "territoires": "66 - Artois Hainaut",
+    "ter": "C",
+    "regions": "Hauts de France",
+    "numreg": 66,
+    "cp": 6766000001
+  },
+  {
+    "territoires": "66 - Bruay Béthune",
+    "ter": "D",
+    "regions": "Hauts de France",
+    "numreg": 66,
+    "cp": 6766000001
+  },
+  {
+    "territoires": "66 - Lille Métropole",
+    "ter": "E",
+    "regions": "Hauts de France",
+    "numreg": 66,
+    "cp": 6766000001
+  },
+  {
+    "territoires": "66 - Littoral Audomarois",
+    "ter": "F",
+    "regions": "Hauts de France",
+    "numreg": 66,
+    "cp": 6766000001
+  },
+  {
+    "territoires": "66 - Oise",
+    "ter": "G",
+    "regions": "Hauts de France",
+    "numreg": 66,
+    "cp": 6766000001
+  },
+  {
+    "territoires": "66 - Somme",
+    "ter": "H",
+    "regions": "Hauts de France",
+    "numreg": 66,
+    "cp": 6766000001
+  },
+  {
+    "territoires": "67 - Cergy Vexin",
+    "ter": "A",
+    "regions": "Ile De France",
+    "numreg": 67,
+    "cp": 6767000001
+  },
+  {
+    "territoires": "67 - Marne et Oise",
+    "ter": "B",
+    "regions": "Ile De France",
+    "numreg": 67,
+    "cp": 6767000001
+  },
+  {
+    "territoires": "67 - Paris Métropole",
+    "ter": "C",
+    "regions": "Ile De France",
+    "numreg": 67,
+    "cp": 6767000001
+  },
+  {
+    "territoires": "67 - Essonne",
+    "ter": "D",
+    "regions": "Ile De France",
+    "numreg": 67,
+    "cp": 6767000001
+  },
+  {
+    "territoires": "67 - Seine et Marne",
+    "ter": "E",
+    "regions": "Ile De France",
+    "numreg": 67,
+    "cp": 6767000001
+  },
+  {
+    "territoires": "67 - Yvelines",
+    "ter": "F",
+    "regions": "Ile De France",
+    "numreg": 67,
+    "cp": 6767000001
+  },
+  {
+    "territoires": "68 - Bray et Caux",
+    "ter": "A",
+    "regions": "Normandie",
+    "numreg": 68,
+    "cp": 6768000001
+  },
+  {
+    "territoires": "68 - Calvados",
+    "ter": "B",
+    "regions": "Normandie",
+    "numreg": 68,
+    "cp": 6768000001
+  },
+  {
+    "territoires": "68 - Dieppe",
+    "ter": "C",
+    "regions": "Normandie",
+    "numreg": 68,
+    "cp": 6768000001
+  },
+  {
+    "territoires": "68 - Eure",
+    "ter": "D",
+    "regions": "Normandie",
+    "numreg": 68,
+    "cp": 6768000001
+  },
+  {
+    "territoires": "68 - Manche et Orne",
+    "ter": "E",
+    "regions": "Normandie",
+    "numreg": 68,
+    "cp": 6768000001
+  },
+  {
+    "territoires": "68 - Vallée de Seine",
+    "ter": "F",
+    "regions": "Normandie",
+    "numreg": 68,
+    "cp": 6768000001
+  },
+  {
+    "territoires": "69 - Alpes du Sud",
+    "ter": "A",
+    "regions": "Méditerranée",
+    "numreg": 69,
+    "cp": 6769000001
+  },
+  {
+    "territoires": "69 - Alpes Maritimes",
+    "ter": "B",
+    "regions": "Méditerranée",
+    "numreg": 69,
+    "cp": 6769000001
+  },
+  {
+    "territoires": "69 - Bouches du Rhone",
+    "ter": "C",
+    "regions": "Méditerranée",
+    "numreg": 69,
+    "cp": 6769000001
+  },
+  {
+    "territoires": "69 - Corse",
+    "ter": "D",
+    "regions": "Méditerranée",
+    "numreg": 69,
+    "cp": "6769D00001"
+  },
+  {
+    "territoires": "69 - Esterel",
+    "ter": "E",
+    "regions": "Méditerranée",
+    "numreg": 69,
+    "cp": 6769000001
+  },
+  {
+    "territoires": "69 - Golfe de Saint Tropez",
+    "ter": "F",
+    "regions": "Méditerranée",
+    "numreg": 69,
+    "cp": 6769000001
+  },
+  {
+    "territoires": "69 - Provence Méditerranée - Centre Var",
+    "ter": "G",
+    "regions": "Méditerranée",
+    "numreg": 69,
+    "cp": 6769000001
+  },
+  {
+    "territoires": "69 - Vaucluse",
+    "ter": "H",
+    "regions": "Méditerranée",
+    "numreg": 69,
+    "cp": 6769000001
+  },
+  {
+    "territoires": "70 - Aude",
+    "ter": "A",
+    "regions": "Sud",
+    "numreg": 70,
+    "cp": 6770000001
+  },
+  {
+    "territoires": "70 - Pyrénées Orientales",
+    "ter": "B",
+    "regions": "Sud",
+    "numreg": 70,
+    "cp": 6770000001
+  },
+  {
+    "territoires": "70 - Gard Lozére",
+    "ter": "D",
+    "regions": "Sud",
+    "numreg": 70,
+    "cp": 6770000001
+  },
+  {
+    "territoires": "70 - Hérault",
+    "ter": "F",
+    "regions": "Sud",
+    "numreg": 70,
+    "cp": 6770000001
+  },
+  {
+    "territoires": "70 - Aveyron",
+    "ter": "H",
+    "regions": "Sud",
+    "numreg": 70,
+    "cp": 6770000001
+  },
+  {
+    "territoires": "70 - Epur Travaux",
+    "ter": "T",
+    "regions": "Sud",
+    "numreg": 70,
+    "cp": 6770000001
+  },
+  {
+    "territoires": "48 - Nova Veolia",
+    "ter": "",
+    "regions": "Nova Veolia",
+    "numreg": 48,
+    "cp": 6748000001
+  },
+  {
+    "territoires": "79 - La Réunion",
+    "ter": "",
+    "regions": "La Réunion",
+    "numreg": 79,
+    "cp": 6779000001
+  }
+]

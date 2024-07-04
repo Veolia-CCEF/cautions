@@ -1,0 +1,163 @@
+[
+  {
+    "df": "910001",
+    "libelle": "Hors reporting",
+    "debutLibelleEotp": "HTB-",
+    "extensionEotp": "99",
+    "typologie": ""
+  },
+  {
+    "df": "W1191000",
+    "libelle": "Eau Commun",
+    "debutLibelleEotp": "001-",
+    "extensionEotp": "01",
+    "typologie": "Produits et frais communs DSP"
+  },
+  {
+    "df": "W1191050",
+    "libelle": "Eau Commun HDSP",
+    "debutLibelleEotp": "006-",
+    "extensionEotp": "06",
+    "typologie": "Produits et frais communs HDSP"
+  },
+  {
+    "df": "W1191090",
+    "libelle": "Eau Expl Adduc Trait Pomp",
+    "debutLibelleEotp": "910-",
+    "extensionEotp": "10",
+    "typologie": "Charges Eau"
+  },
+  {
+    "df": "W1191290",
+    "libelle": "Eau Expl Reservoirs",
+    "debutLibelleEotp": "912-",
+    "extensionEotp": "12",
+    "typologie": "Charges Eau"
+  },
+  {
+    "df": "W1191490",
+    "libelle": "Eau Expl Reseaux",
+    "debutLibelleEotp": "914-",
+    "extensionEotp": "14",
+    "typologie": "Charges Eau"
+  },
+  {
+    "df": "W1191590",
+    "libelle": "Eau Expl Branch app pub",
+    "debutLibelleEotp": "915-",
+    "extensionEotp": "15",
+    "typologie": "Charges Eau"
+  },
+  {
+    "df": "W1191690",
+    "libelle": "Eau Expl Compteurs",
+    "debutLibelleEotp": "916-",
+    "extensionEotp": "16",
+    "typologie": "Charges Eau"
+  },
+  {
+    "df": "W1192000",
+    "libelle": "Asst Commun",
+    "debutLibelleEotp": "002-",
+    "extensionEotp": "02",
+    "typologie": "Produits et frais communs DSP"
+  },
+  {
+    "df": "W1192050",
+    "libelle": "Asst Commun HDSP",
+    "debutLibelleEotp": "007-",
+    "extensionEotp": "07",
+    "typologie": "Produits et frais communs HDSP"
+  },
+  {
+    "df": "W1192190",
+    "libelle": "Asst Expl Usines depollut",
+    "debutLibelleEotp": "921-",
+    "extensionEotp": "21",
+    "typologie": "Charges Asst"
+  },
+  {
+    "df": "W1192290",
+    "libelle": "Asst Expl Reseaux",
+    "debutLibelleEotp": "922-",
+    "extensionEotp": "22",
+    "typologie": "Charges Asst"
+  },
+  {
+    "df": "W1192295",
+    "libelle": "Asst Expl Curage Reseaux",
+    "debutLibelleEotp": "925-",
+    "extensionEotp": "25",
+    "typologie": "Charges Asst"
+  },
+  {
+    "df": "W1192390",
+    "libelle": "Asst Expl Postes releve.",
+    "debutLibelleEotp": "923-",
+    "extensionEotp": "23",
+    "typologie": "Charges Asst"
+  },
+  {
+    "df": "W1192490",
+    "libelle": "Asst Expl Non Collectif",
+    "debutLibelleEotp": "924-",
+    "extensionEotp": "24",
+    "typologie": "Charges Asst"
+  },
+  {
+    "df": "W1193000",
+    "libelle": "AAct Commun",
+    "debutLibelleEotp": "003-",
+    "extensionEotp": "03",
+    "typologie": "Produits et frais communs DSP Autres activites"
+  },
+  {
+    "df": "W1193050",
+    "libelle": "AAct Commun HDSP",
+    "debutLibelleEotp": "008-",
+    "extensionEotp": "08",
+    "typologie": "Produits et frais communs HDSP"
+  },
+  {
+    "df": "W1193190",
+    "libelle": "AAct Production",
+    "debutLibelleEotp": "931-",
+    "extensionEotp": "31",
+    "typologie": "Charges Collectivites autres HDSP"
+  },
+  {
+    "df": "W1193490",
+    "libelle": "AAct Distribution",
+    "debutLibelleEotp": "934-",
+    "extensionEotp": "34",
+    "typologie": "Charges Industriels HDSP"
+  },
+  {
+    "df": "W1193590",
+    "libelle": "AAct Compteurs",
+    "debutLibelleEotp": "935-",
+    "extensionEotp": "35",
+    "typologie": "Charges Autres HDSP (Particuliers/Professionnels)"
+  },
+  {
+    "df": "W1495510",
+    "libelle": "Clientele Terrain",
+    "debutLibelleEotp": "951-",
+    "extensionEotp": "51",
+    "typologie": "Charges Clientele"
+  },
+  {
+    "df": "W1495530",
+    "libelle": "Clientele Releve de compteurs",
+    "debutLibelleEotp": "953-",
+    "extensionEotp": "53",
+    "typologie": "Charges Clientele"
+  },
+  {
+    "df": "W1495540",
+    "libelle": "Recouvrement clientele",
+    "debutLibelleEotp": "954-",
+    "extensionEotp": "54",
+    "typologie": "Charges Clientele"
+  }
+]
