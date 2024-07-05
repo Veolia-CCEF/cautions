@@ -23,7 +23,7 @@
         <igx-card style="margin-top: 20px;">
         <igx-card-content>
             <span class="card-currency">/!\</span>
-            <p>Evitons les versements numéraires prévus dans les contrats d'affermage en les substituant à une GAPD <br> et à l'inverse pas d'émissions de cautions pour des montants inférieurs à 1000€.</p>
+            <p>Evitons les versements numéraires prévus dans les contrats d'affermage en les substituant à une GAPD. <br> A l'inverse pas d'émission de cautions pour des montants inférieurs à 1000€.</p>
         </igx-card-content>
         </igx-card>
     </div>
@@ -68,10 +68,11 @@
                 <igx-card-content>
                     <img src="{{selectedCard.img}}" alt="">
                     <div>
-                        <span class="card-title">Les champs marqués d'une * sont obligatoires.</span>
+                        
                         <button igxButton="contained" (click)="stepper.prev()">Retour</button>
                         <button igxButton="flat" (click)="stepper.next()"
                         [disabled]="!garantieInfosForm.form.valid">Continuer</button>
+                        <span>Les champs marqués d'une * sont obligatoires.</span>
                     </div>
                 </igx-card-content>
             </igx-card>
@@ -96,7 +97,7 @@
                 <label igxLabel>Société donneuse d'ordre</label>
                 </igx-select>
                 <igx-input-group type="box" *ngIf="garantieInfos.type == 'Affermage'">
-                    <input igxInput maxlength="5" minlength="5" name="codeContrat" id="codeContrat" type="text" [(ngModel)]="generalInfos.codeContrat" required/>
+                    <input igxInput maxlength="5" minlength="5" name="codeContrat" id="codeContrat" type="text" [(ngModel)]="generalInfos.codeContrat"/>
                     <label igxLabel for="codeContrat">Code Contrat</label>
                     <igx-hint *ngIf="!generalInfosForm.controls['codeContrat']?.pristine
                         && !generalInfosForm.controls['codeContrat']?.valid">
@@ -172,10 +173,11 @@
                 <igx-card-content>
                     <img src="{{selectedCard.img}}" alt="">
                     <div>
-                        <span class="card-title">Les champs marqués d'une * sont obligatoires.</span>
+                        
                         <button igxButton="contained" (click)="stepper.prev()">Retour</button>
                         <button igxButton="flat" (click)="stepper.next()"
                         [disabled]="!generalInfosForm.form.valid">Continuer</button>
+                        <span>Les champs marqués d'une * sont obligatoires.</span>
                     </div>
                 </igx-card-content>
             </igx-card>
@@ -232,10 +234,11 @@
                         <img src="{{selectedCard.img}}" alt="">
                     </div>
                     <div>
-                        <span class="card-title">Les champs marqués d'une * sont obligatoires.</span>
+                        
                         <button igxButton="contained" (click)="stepper.prev()">Retour</button>
                         <button igxButton="flat" (click)="stepper.next()"
                         [disabled]="!beneficiaireInfosForm.form.valid">Continuer</button>
+                        <span>Les champs marqués d'une * sont obligatoires.</span>
                     </div>
                 </igx-card-content>
             </igx-card>
@@ -366,10 +369,11 @@
                         <img src="{{selectedCard.img}}" alt="">
                     </div>
                     <div>
-                        <span class="card-title">Les champs marqués d'une * sont obligatoires.</span>
+                        
                         <button igxButton="contained" (click)="stepper.prev()">Retour</button>
                         <button igxButton="flat" (click)="stepper.next()"
                         [disabled]="!allFilesLoaded">Continuer</button>
+                        <span>Les champs marqués d'une * sont obligatoires.</span>
                     </div>
                 </igx-card-content>
             </igx-card>

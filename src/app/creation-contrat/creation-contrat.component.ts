@@ -187,7 +187,8 @@ constructor(public cdr: ChangeDetectorRef, public element: ElementRef, public ht
       }
 
     changeMontantGarantieFixe(newValue: number) {
-      this.generalInfos.montantGarantie = (newValue * 0.05).toFixed(2)
+      this.generalInfos.montantGarantie = (newValue * 0.05).toFixed(2);
+      this.generalInfos.montantGarantie = Math.ceil(this.generalInfos.montantGarantie);
       console.log(this.generalInfos.montantGarantie)
     }
 
