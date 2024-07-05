@@ -72,7 +72,7 @@
                         <button igxButton="contained" (click)="stepper.prev()">Retour</button>
                         <button igxButton="flat" (click)="stepper.next()"
                         [disabled]="!garantieInfosForm.form.valid">Continuer</button>
-                        <span>Les champs marqués d'une * sont obligatoires.</span>
+                        <span><br>Les champs marqués d'une * sont obligatoires.</span>
                     </div>
                 </igx-card-content>
             </igx-card>
@@ -141,6 +141,15 @@
                         Le montant doit être supérieur à 0.
                     </igx-hint>
                 </igx-input-group>
+                <igx-input-group type="box" *ngIf="garantieInfos.type == 'Travaux' && garantieInfos.garantie == 'Garantie de paiement sous-traitant'">
+                    <input igxInput min="1" name="montantHTSousTraitant" id="montantHTSousTraitant" type="number"
+                    [(ngModel)]="generalInfos.montantHTSousTraitant" (ngModelChange)="changeMontantGarantieFixe($event)" required />
+                    <label igxLabel for="montantHTSousTraitant">Montant TTC du contrat</label>
+                    <igx-hint *ngIf="!generalInfosForm.controls['montantHTSousTraitant']?.pristine
+                        && !generalInfosForm.controls['montantHTSousTraitant']?.valid">
+                        Le montant doit être supérieur à 0.
+                    </igx-hint>
+                </igx-input-group>
                 <igx-radio-group type="box" name="relatif"  alignment="vertical"
                 [(ngModel)]="generalInfos.typeMontantGarantie" (ngModelChange)="changeMontantGarantie()" *ngIf="garantieInfos.type == 'Affermage'" required>
                 <igx-radio class="radio-sample" value="forfaitaire">
@@ -152,12 +161,12 @@
             </igx-radio-group>
                 <div class="form-row" *ngIf="garantieInfos.type == 'Affermage' && generalInfos.typeMontantGarantie == 'calculée'">
                     <igx-input-group type="box" required>
-                        <input igxInput name="base" id="base" type="text"
+                        <input igxInput name="base" id="base" type="number"
                         [(ngModel)]="generalInfos.base" (ngModelChange)="changeMontantGarantie()" required />
                         <label igxLabel for="base">Base</label>
                     </igx-input-group>
                     <igx-input-group type="box" required>
-                        <input igxInput name="taux" id="taux" type="text"
+                        <input igxInput name="taux" id="taux" type="number"
                         [(ngModel)]="generalInfos.taux" (ngModelChange)="changeMontantGarantie()" required />
                         <label igxLabel for="taux">Taux en %</label>
                     </igx-input-group>
@@ -174,10 +183,10 @@
                     <img src="{{selectedCard.img}}" alt="">
                     <div>
                         
-                        <button igxButton="contained" (click)="stepper.prev()">Retour</button>
-                        <button igxButton="flat" (click)="stepper.next()"
+                        <button igxButton="flat" (click)="stepper.prev()">Retour</button>
+                        <button class="test-button" igxButton="contained" (click)="stepper.next()"
                         [disabled]="!generalInfosForm.form.valid">Continuer</button>
-                        <span>Les champs marqués d'une * sont obligatoires.</span>
+                        <span><br>Les champs marqués d'une * sont obligatoires.</span>
                     </div>
                 </igx-card-content>
             </igx-card>
@@ -238,7 +247,7 @@
                         <button igxButton="contained" (click)="stepper.prev()">Retour</button>
                         <button igxButton="flat" (click)="stepper.next()"
                         [disabled]="!beneficiaireInfosForm.form.valid">Continuer</button>
-                        <span>Les champs marqués d'une * sont obligatoires.</span>
+                        <span><br>Les champs marqués d'une * sont obligatoires.</span>
                     </div>
                 </igx-card-content>
             </igx-card>
@@ -362,6 +371,18 @@
                         />
                     <igx-hint>Charger le fichier demandé (obligatoire)</igx-hint>
                 </igx-input-group>
+                <p *ngIf="garantieInfos.type =='Travaux'"> Ordre de service</p>
+                <igx-input-group *ngIf="garantieInfos.type == 'Travaux'">
+                    <label igxLabel>Ordre de service</label>
+                    <input
+                        igxInput
+                        type="file"
+                        name="ordreService"
+                        required
+                        (change)="onFileChange($event, 'ordreService')"
+                        />
+                    <igx-hint>Optionnel</igx-hint>
+                </igx-input-group>
             </form>
             <igx-card  *ngIf="selectedCard">
                 <igx-card-content>
@@ -373,7 +394,7 @@
                         <button igxButton="contained" (click)="stepper.prev()">Retour</button>
                         <button igxButton="flat" (click)="stepper.next()"
                         [disabled]="!allFilesLoaded">Continuer</button>
-                        <span>Les champs marqués d'une * sont obligatoires.</span>
+                        <span><br>Les champs marqués d'une * sont obligatoires.</span>
                     </div>
                 </igx-card-content>
             </igx-card>

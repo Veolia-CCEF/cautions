@@ -36,14 +36,14 @@ constructor(public cdr: ChangeDetectorRef, public element: ElementRef, public ht
 
     public cards: any[] = [
         {
-            img: 'https://www.shutterstock.com/image-vector/bank-guarantees-concept-solid-assurance-260nw-2433316651.jpg',
+            img: 'https://ccef-portail.fr/wp-content/uploads/2024/07/travaux.png',
             price: "Cautions",
             offer: 'Formulaire',
             type: 'Travaux',
             description: 'Travaux'
         },
         {
-            img:'https://www.shutterstock.com/image-vector/bank-guarantees-concept-solid-assurance-260nw-2433316651.jpg',
+            img:'https://ccef-portail.fr/wp-content/uploads/2024/07/affermage.png',
             price: "Cautions",
             offer: 'Formulaire',
             type: 'Affermage',
@@ -82,6 +82,7 @@ constructor(public cdr: ChangeDetectorRef, public element: ElementRef, public ht
         dateLimite: '',
         typeMontantGarantie: '',
         montantTTC: "",
+        montantHTSousTraitant: "",
         montantGarantie: "",
         methode: '',
         base: "",

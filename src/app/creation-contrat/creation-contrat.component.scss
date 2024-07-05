@@ -68,11 +68,13 @@ $my-card: card-theme(
 @include card($my-card);
 
 .selected-card {
-	border: 2px solid color($default-palette, 'primary', 400);
+	border: 2px solid color($default-palette, 'error', 800);
 	position: relative;
 	overflow: initial;
 
 	igx-badge {
+		background-color: color($default-palette, 'error', 800);
+		color: white;
 		position: absolute;
 		top: rem(-11px);
 		left: 0;
@@ -127,13 +129,13 @@ $my-card: card-theme(
 	font-size: rem(18px);
 	font-weight: 500;
 	margin: 0 rem(8px);
-	color: color($default-palette, 'error');
+	color: color($default-palette, 'error', 800);
 }
 
 .card-currency {
 	display: block;
 	font-size: rem(32px);
-	color: color($default-palette, 'error');
+	color: color($default-palette, 'error', 800);
 	margin-bottom: rem(8px);
 	margin-top: rem(8px);
 
@@ -253,6 +255,9 @@ $my-card: card-theme(
 	}
 }
 
+.test-button {
+	color: color($default-palette, 'error', 800);
+}
 .sample-required {
 	color: color($default-palette, 'error');
 	margin-left: rem(2px);
