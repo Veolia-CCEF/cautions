@@ -111,14 +111,18 @@
                     <input igxInput maxlength="80" name="objetTravaux" id="objetTravaux" type="text" [(ngModel)]="generalInfos.objetTravaux" required/>
                     <label igxLabel for="objetTravaux">Objet des travaux</label>
                 </igx-input-group>
-                <div class="form-row">
-                    <igx-date-picker name="dateSaisie" id="dateSaisie" [inputFormat]="'dd/MM/yy'" placeholder="jj/mm/aa" [(ngModel)]="generalInfos.dateSaisie" required>
-                    <label igxLabel>Date de saisie</label>
+                    <igx-date-picker *ngIf="garantieInfos.type == 'Travaux'" name="dateSaisie" id="dateSaisie" [inputFormat]="'dd/MM/yy'" placeholder="jj/mm/aa" [(ngModel)]="generalInfos.dateSaisie" required>
+                    <label igxLabel>Date de début de travaux</label>
                     </igx-date-picker>
-                    <igx-date-picker name="dateLimite" [disabled]="generalInfos.dateSaisie == ''" placeholder="jj/mm/aa" [minValue]="generalInfos.dateSaisie" id="dateLimite" [inputFormat]="'dd/MM/yy'" [(ngModel)]="generalInfos.dateLimite" required>
-                    <label igxLabel>Date limite de réponse</label>
+                    <igx-date-picker *ngIf="garantieInfos.type == 'Travaux'" name="dateLimite" [disabled]="generalInfos.dateSaisie == ''" placeholder="jj/mm/aa" [minValue]="generalInfos.dateSaisie" id="dateLimite" [inputFormat]="'dd/MM/yy'" [(ngModel)]="generalInfos.dateLimite" required>
+                    <label igxLabel>Date de fin de travaux</label>
                     </igx-date-picker>
-                </div>
+                    <igx-date-picker *ngIf="garantieInfos.type == 'Affermage'" name="dateSaisie" id="dateSaisie" [inputFormat]="'dd/MM/yy'" placeholder="jj/mm/aa" [(ngModel)]="generalInfos.dateSaisie" required>
+                        <label igxLabel>Date de début contrat</label>
+                    </igx-date-picker>
+                    <igx-date-picker *ngIf="garantieInfos.type == 'Affermage'" name="dateLimite" [disabled]="generalInfos.dateSaisie == ''" placeholder="jj/mm/aa" [minValue]="generalInfos.dateSaisie" id="dateLimite" [inputFormat]="'dd/MM/yy'" [(ngModel)]="generalInfos.dateLimite" required>
+                        <label igxLabel>Date de fin de contrat</label>
+                    </igx-date-picker>
                 <igx-input-group type="box" *ngIf="garantieInfos.type == 'Travaux'">
                     <input igxInput min="1" name="montantTTC" id="montantTTC" type="number"
                     [(ngModel)]="generalInfos.montantTTC" (ngModelChange)="changeMontantGarantieFixe($event)" required />
@@ -146,7 +150,7 @@
                     <igx-input-group type="box" required>
                         <input igxInput name="taux" id="taux" type="text"
                         [(ngModel)]="generalInfos.taux" (ngModelChange)="changeMontantGarantie()" required />
-                        <label igxLabel for="taux">Taux</label>
+                        <label igxLabel for="taux">Taux en %</label>
                     </igx-input-group>
                 </div>
                 <igx-input-group type="box" required>

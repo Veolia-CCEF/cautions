@@ -192,7 +192,7 @@ constructor(public cdr: ChangeDetectorRef, public element: ElementRef, public ht
     }
 
     changeMontantGarantie() {
-      this.generalInfos.montantGarantie = this.generalInfos.base / this.generalInfos.taux;
+      this.generalInfos.montantGarantie = (this.generalInfos.base / 100) * this.generalInfos.taux;
     }
 
     getKeys(obj: any): Array<string> {
