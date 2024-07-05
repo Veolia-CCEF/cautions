@@ -36,14 +36,14 @@ constructor(public cdr: ChangeDetectorRef, public element: ElementRef, public ht
 
     public cards: any[] = [
         {
-            img: 'https://www.infragistics.com/angular-demos-lob/assets/images/stepper/card-gold.png',
+            img: 'https://www.shutterstock.com/image-vector/bank-guarantees-concept-solid-assurance-260nw-2433316651.jpg',
             price: "Cautions",
             offer: 'Formulaire',
             type: 'Travaux',
             description: 'Travaux'
         },
         {
-            img: 'https://www.infragistics.com/angular-demos-lob/assets/images/stepper/card-red.png',
+            img:'https://www.shutterstock.com/image-vector/bank-guarantees-concept-solid-assurance-260nw-2433316651.jpg',
             price: "Cautions",
             offer: 'Formulaire',
             type: 'Affermage',
@@ -81,11 +81,11 @@ constructor(public cdr: ChangeDetectorRef, public element: ElementRef, public ht
         dateSaisie: '',
         dateLimite: '',
         typeMontantGarantie: '',
-        montantTTC: 0,
-        montantGarantie: 0,
+        montantTTC: "",
+        montantGarantie: "",
         methode: '',
-        base: 0,
-        taux: 0,
+        base: "",
+        taux: "",
     };
 
     public beneficiaireInfos: any = {
@@ -192,7 +192,7 @@ constructor(public cdr: ChangeDetectorRef, public element: ElementRef, public ht
     }
 
     changeMontantGarantie() {
-      this.generalInfos.montantGarantie = (this.generalInfos.base / 100) * this.generalInfos.taux;
+      this.generalInfos.montantGarantie = Math.ceil((this.generalInfos.base / 100) * this.generalInfos.taux);
     }
 
     getKeys(obj: any): Array<string> {
