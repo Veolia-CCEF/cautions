@@ -153,6 +153,7 @@
                     <input min="1" igxInput name="montantGarantie" id="montantGarantie" type="number"
                     [(ngModel)]="generalInfos.montantGarantie" [disabled]="generalInfos.typeMontantGarantie !== 'forfaitaire'" required />
                     <label igxLabel for="montantGarantie">Montant garantie</label>
+                    <igx-hint *ngIf="generalInfos.typeMontantGarantie !== 'forfaitaire'">5% du montant TTC</igx-hint>
                 </igx-input-group>
             </form>
             <igx-card  *ngIf="selectedCard">
